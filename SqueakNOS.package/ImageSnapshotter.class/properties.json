@@ -1,15 +1,14 @@
 {
-	"category" : "SqueakNOS-Kernel",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "SqueakNOS-Kernel",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"computer",
-		"savedPages" ],
+		"savedPages"
+	],
 	"name" : "ImageSnapshotter",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"type" : "normal"
+}

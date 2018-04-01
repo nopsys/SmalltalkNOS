@@ -1,14 +1,11 @@
 {
-	"category" : "SqueakNOS-Storage",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "Segment",
-	"pools" : [
-		 ],
 	"super" : "Interval",
-	"type" : "normal" }
+	"category" : "SqueakNOS-Storage",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "Segment",
+	"type" : "normal"
+}

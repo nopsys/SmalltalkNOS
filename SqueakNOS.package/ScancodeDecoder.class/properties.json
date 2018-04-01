@@ -1,15 +1,14 @@
 {
-	"category" : "SqueakNOS-Devices-Base",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "SqueakNOS-Devices-Base",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"previousScanCode",
-		"actualScanCode" ],
+		"actualScanCode"
+	],
 	"name" : "ScancodeDecoder",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"type" : "normal"
+}

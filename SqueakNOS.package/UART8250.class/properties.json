@@ -1,10 +1,10 @@
 {
-	"category" : "SqueakNOS-Devices-Base",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "<historical>",
+	"super" : "HardwareDevice",
+	"category" : "SqueakNOS-Devices-Base",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"receivedChars",
 		"baudRate",
@@ -13,9 +13,8 @@
 		"dataBits",
 		"interruptId",
 		"lineStatus",
-		"modemStatus" ],
+		"modemStatus"
+	],
 	"name" : "UART8250",
-	"pools" : [
-		 ],
-	"super" : "HardwareDevice",
-	"type" : "normal" }
+	"type" : "normal"
+}

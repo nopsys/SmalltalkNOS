@@ -1,14 +1,13 @@
 {
-	"category" : "SqueakNOS-FileSupport",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		"channel" ],
-	"name" : "RemoteMultiByteFileStream",
-	"pools" : [
-		 ],
 	"super" : "MultiByteFileStream",
-	"type" : "normal" }
+	"category" : "SqueakNOS-FileSupport",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"channel"
+	],
+	"name" : "RemoteMultiByteFileStream",
+	"type" : "normal"
+}

@@ -1,15 +1,14 @@
 {
-	"category" : "SqueakNOS-Devices-Memory",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "HardwareDevice",
+	"category" : "SqueakNOS-Devices-Memory",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"size",
-		"blocks" ],
+		"blocks"
+	],
 	"name" : "Memory",
-	"pools" : [
-		 ],
-	"super" : "HardwareDevice",
-	"type" : "normal" }
+	"type" : "normal"
+}

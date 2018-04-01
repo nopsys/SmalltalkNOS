@@ -1,16 +1,15 @@
 {
-	"category" : "SqueakNOS-Storage",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "SqueakNOS-Storage",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"device",
 		"chunks",
-		"writeList" ],
+		"writeList"
+	],
 	"name" : "BlockCache",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"type" : "normal"
+}

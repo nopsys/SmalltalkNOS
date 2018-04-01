@@ -1,15 +1,14 @@
 {
-	"category" : "SqueakNOS-Devices-Memory",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "SqueakNOS-Devices-Memory",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"interval",
-		"description" ],
+		"description"
+	],
 	"name" : "MemoryBlock",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"type" : "normal"
+}

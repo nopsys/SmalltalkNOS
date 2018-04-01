@@ -1,16 +1,15 @@
 {
-	"category" : "SqueakNOS-MemoryManager-Paging",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "SqueakNOS-MemoryManager-Paging",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"handle",
 		"entriesCount",
-		"entrySize" ],
+		"entrySize"
+	],
 	"name" : "PageIndex",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"type" : "normal"
+}

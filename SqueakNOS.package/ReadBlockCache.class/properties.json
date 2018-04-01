@@ -1,16 +1,15 @@
 {
-	"category" : "SqueakNOS-Storage",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "SqueakNOS-Storage",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"device",
 		"cache",
-		"count" ],
+		"count"
+	],
 	"name" : "ReadBlockCache",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"type" : "normal"
+}

@@ -1,14 +1,13 @@
 {
-	"category" : "SqueakNOS-Devices-Storage",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "Pocho 4/2/2010 04:49",
-	"instvars" : [
-		"cache" ],
-	"name" : "BlockDevice",
-	"pools" : [
-		 ],
 	"super" : "Object",
-	"type" : "normal" }
+	"category" : "SqueakNOS-Devices-Storage",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"cache"
+	],
+	"name" : "BlockDevice",
+	"type" : "normal"
+}

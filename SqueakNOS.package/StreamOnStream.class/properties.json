@@ -1,17 +1,16 @@
 {
-	"category" : "SqueakNOS-Filesystems",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "PositionableStream",
+	"category" : "SqueakNOS-Filesystems",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"contentLength",
 		"offset",
 		"stream",
-		"original" ],
+		"original"
+	],
 	"name" : "StreamOnStream",
-	"pools" : [
-		 ],
-	"super" : "PositionableStream",
-	"type" : "normal" }
+	"type" : "normal"
+}

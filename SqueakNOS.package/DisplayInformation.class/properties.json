@@ -1,14 +1,11 @@
 {
-	"category" : "SqueakNOS-External-Structures",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "DisplayInformation",
-	"pools" : [
-		 ],
 	"super" : "ExternalStructure",
-	"type" : "normal" }
+	"category" : "SqueakNOS-External-Structures",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "DisplayInformation",
+	"type" : "normal"
+}

@@ -1,17 +1,18 @@
 {
+	"commentStamp" : "Pocho 3/27/2010 14:31",
+	"super" : "BlockDevice",
 	"category" : "SqueakNOS-Devices-Storage",
 	"classinstvars" : [
-		"loadedDevices" ],
-	"classvars" : [
-		 ],
-	"commentStamp" : "Pocho 3/27/2010 14:31",
+		"loadedDevices"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"controller",
 		"deviceNumber",
 		"cachedSector",
-		"cachedSectorNumber" ],
+		"cachedSectorNumber"
+	],
 	"name" : "ATADevice",
-	"pools" : [
-		 ],
-	"super" : "BlockDevice",
-	"type" : "normal" }
+	"type" : "normal"
+}

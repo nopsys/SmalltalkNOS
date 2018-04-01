@@ -1,14 +1,11 @@
 {
-	"category" : "SqueakNOS-PharoCompatibility",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "SqueakNOSPlatform",
-	"pools" : [
-		 ],
 	"super" : "OSPlatform",
-	"type" : "normal" }
+	"category" : "SqueakNOS-PharoCompatibility",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SqueakNOSPlatform",
+	"type" : "normal"
+}

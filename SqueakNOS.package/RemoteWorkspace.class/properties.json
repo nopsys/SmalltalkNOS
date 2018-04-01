@@ -1,14 +1,13 @@
 {
-	"category" : "SqueakNOS-FileSupport",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		"remote" ],
-	"name" : "RemoteWorkspace",
-	"pools" : [
-		 ],
 	"super" : "Workspace",
-	"type" : "normal" }
+	"category" : "SqueakNOS-FileSupport",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"remote"
+	],
+	"name" : "RemoteWorkspace",
+	"type" : "normal"
+}

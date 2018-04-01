@@ -1,14 +1,11 @@
 {
-	"category" : "SqueakNOS-Filesystems",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "StreamOnStreamTest",
-	"pools" : [
-		 ],
 	"super" : "TestCase",
-	"type" : "normal" }
+	"category" : "SqueakNOS-Filesystems",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "StreamOnStreamTest",
+	"type" : "normal"
+}

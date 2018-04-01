@@ -1,14 +1,13 @@
 {
-	"category" : "SqueakNOS-OFW-OLPC",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "<historical>",
-	"instvars" : [
-		"phandle" ],
-	"name" : "OFWDeviceNode",
-	"pools" : [
-		 ],
 	"super" : "OpenFirmwareCalloutClient",
-	"type" : "normal" }
+	"category" : "SqueakNOS-OFW-OLPC",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"phandle"
+	],
+	"name" : "OFWDeviceNode",
+	"type" : "normal"
+}

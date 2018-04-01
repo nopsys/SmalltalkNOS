@@ -1,11 +1,15 @@
 {
+	"commentStamp" : "",
+	"super" : "HardwareDevice",
 	"category" : "SqueakNOS-Devices-Base",
-	"classinstvars" : [
-		 ],
+	"classinstvars" : [ ],
+	"pools" : [
+		"EventSensorConstants"
+	],
 	"classvars" : [
 		"ShiftedTranslationTable",
-		"TranslationTable" ],
-	"commentStamp" : "",
+		"TranslationTable"
+	],
 	"instvars" : [
 		"pressedKeys",
 		"replyExpected",
@@ -16,9 +20,8 @@
 		"mouseCount",
 		"prevScanCode",
 		"underCursorForm",
-		"event" ],
+		"event"
+	],
 	"name" : "OldPCKeyboard",
-	"pools" : [
-		"EventSensorConstants" ],
-	"super" : "HardwareDevice",
-	"type" : "normal" }
+	"type" : "normal"
+}

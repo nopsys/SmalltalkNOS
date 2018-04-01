@@ -1,17 +1,18 @@
 {
+	"commentStamp" : "gera 5/26/2006 20:35",
+	"super" : "Object",
 	"category" : "SqueakNOS-FileSupport",
-	"classinstvars" : [
-		 ],
+	"classinstvars" : [ ],
+	"pools" : [ ],
 	"classvars" : [
 		"Channels",
-		"MainChannelStream" ],
-	"commentStamp" : "gera 5/26/2006 20:35",
+		"MainChannelStream"
+	],
 	"instvars" : [
 		"handle",
 		"stream",
-		"object" ],
+		"object"
+	],
 	"name" : "RemoteObjectChannel",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"type" : "normal"
+}

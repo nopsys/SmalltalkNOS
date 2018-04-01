@@ -1,20 +1,23 @@
 {
+	"commentStamp" : "",
+	"super" : "Object",
 	"category" : "SqueakNOS-Kernel",
 	"classinstvars" : [
-		"snapshotter" ],
+		"snapshotter"
+	],
+	"pools" : [ ],
 	"classvars" : [
 		"Current",
 		"PageFaultHandler",
-		"Saving" ],
-	"commentStamp" : "",
+		"Saving"
+	],
 	"instvars" : [
 		"devices",
 		"info",
 		"processor",
 		"memoryManager",
-		"primaryFilesystem" ],
+		"primaryFilesystem"
+	],
 	"name" : "Computer",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"type" : "normal"
+}

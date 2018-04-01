@@ -1,14 +1,11 @@
 {
-	"category" : "SqueakNOS-Devices-USB",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "USBTransferDescriptor",
-	"pools" : [
-		 ],
 	"super" : "ExternalStructure",
-	"type" : "normal" }
+	"category" : "SqueakNOS-Devices-USB",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "USBTransferDescriptor",
+	"type" : "normal"
+}

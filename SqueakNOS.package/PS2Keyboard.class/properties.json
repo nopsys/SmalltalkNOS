@@ -1,10 +1,12 @@
 {
-	"category" : "SqueakNOS-Devices-Base",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "HardwareDevice",
+	"category" : "SqueakNOS-Devices-Base",
+	"classinstvars" : [ ],
+	"pools" : [
+		"EventSensorConstants"
+	],
+	"classvars" : [ ],
 	"instvars" : [
 		"modifiersAndButtons",
 		"mouseCoord",
@@ -13,9 +15,8 @@
 		"previousScanCode",
 		"configBits",
 		"decoder",
-		"keysMapping" ],
+		"keysMapping"
+	],
 	"name" : "PS2Keyboard",
-	"pools" : [
-		"EventSensorConstants" ],
-	"super" : "HardwareDevice",
-	"type" : "normal" }
+	"type" : "normal"
+}

@@ -1,15 +1,14 @@
 {
-	"category" : "SqueakNOS-Filesystems-FAT32",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "SqueakNOS-Filesystems-FAT32",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"chains",
-		"contents" ],
+		"contents"
+	],
 	"name" : "FAT32FileAllocationTable",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"type" : "normal"
+}

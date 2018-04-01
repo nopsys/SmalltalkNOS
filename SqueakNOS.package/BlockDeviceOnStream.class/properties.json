@@ -1,15 +1,14 @@
 {
-	"category" : "SqueakNOS-Storage",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "Pocho 7/21/2010 16:07",
+	"super" : "BlockDevice",
+	"category" : "SqueakNOS-Storage",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"stream",
-		"blockSize" ],
+		"blockSize"
+	],
 	"name" : "BlockDeviceOnStream",
-	"pools" : [
-		 ],
-	"super" : "BlockDevice",
-	"type" : "normal" }
+	"type" : "normal"
+}

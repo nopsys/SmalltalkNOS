@@ -1,14 +1,13 @@
 {
-	"category" : "SqueakNOS-Filesystems-FAT32",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		"device" ],
-	"name" : "FAT32FileSystemTest",
-	"pools" : [
-		 ],
 	"super" : "TestCase",
-	"type" : "normal" }
+	"category" : "SqueakNOS-Filesystems-FAT32",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"device"
+	],
+	"name" : "FAT32FileSystemTest",
+	"type" : "normal"
+}

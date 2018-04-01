@@ -1,14 +1,13 @@
 {
-	"category" : "SqueakNOS-FileSupport",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		"channel" ],
-	"name" : "RemoteFileDirectory",
-	"pools" : [
-		 ],
 	"super" : "Object",
-	"type" : "normal" }
+	"category" : "SqueakNOS-FileSupport",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"channel"
+	],
+	"name" : "RemoteFileDirectory",
+	"type" : "normal"
+}

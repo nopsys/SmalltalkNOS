@@ -1,14 +1,11 @@
 {
-	"category" : "SqueakNOS-MemoryManager-Paging",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "PageDirectory",
-	"pools" : [
-		 ],
 	"super" : "PageIndex",
-	"type" : "normal" }
+	"category" : "SqueakNOS-MemoryManager-Paging",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "PageDirectory",
+	"type" : "normal"
+}

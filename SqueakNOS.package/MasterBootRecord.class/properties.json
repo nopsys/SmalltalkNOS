@@ -1,14 +1,13 @@
 {
-	"category" : "SqueakNOS-Filesystems",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "Pocho 4/5/2010 18:27",
-	"instvars" : [
-		"bytes" ],
-	"name" : "MasterBootRecord",
-	"pools" : [
-		 ],
 	"super" : "Object",
-	"type" : "normal" }
+	"category" : "SqueakNOS-Filesystems",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"bytes"
+	],
+	"name" : "MasterBootRecord",
+	"type" : "normal"
+}

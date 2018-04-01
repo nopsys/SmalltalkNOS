@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "Object",
-	"category" : "SqueakNOS-Devices-Processor",
+	"super" : "PlatformResolver",
+	"category" : "SqueakNOS-FileSupport",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "MicroProcessor",
+	"name" : "NopsysResolver",
 	"type" : "normal"
 }

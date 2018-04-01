@@ -1,15 +1,14 @@
 {
-	"category" : "SqueakNOS-Memory-Manager",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "SqueakNOS-Memory-Manager",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"memory",
-		"processor" ],
+		"processor"
+	],
 	"name" : "MemoryManagerStrategy",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"type" : "normal"
+}

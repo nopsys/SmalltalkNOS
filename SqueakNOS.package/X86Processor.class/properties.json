@@ -1,14 +1,11 @@
 {
-	"category" : "SqueakNOS-Devices-Processor",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "X86Processor",
-	"pools" : [
-		 ],
 	"super" : "MicroProcessor",
-	"type" : "normal" }
+	"category" : "SqueakNOS-Devices-Processor",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "X86Processor",
+	"type" : "normal"
+}

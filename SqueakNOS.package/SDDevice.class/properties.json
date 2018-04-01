@@ -1,14 +1,11 @@
 {
-	"category" : "SqueakNOS-Devices-USB",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "SDDevice",
-	"pools" : [
-		 ],
 	"super" : "PCIDevice",
-	"type" : "normal" }
+	"category" : "SqueakNOS-Devices-USB",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SDDevice",
+	"type" : "normal"
+}

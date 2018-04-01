@@ -1,17 +1,16 @@
 {
-	"category" : "SqueakNOS-Kernel",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "SqueakNOS-Kernel",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"semaphore",
 		"process",
 		"interruptNumber",
-		"clients" ],
+		"clients"
+	],
 	"name" : "InterruptRequestDispatcher",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"type" : "normal"
+}

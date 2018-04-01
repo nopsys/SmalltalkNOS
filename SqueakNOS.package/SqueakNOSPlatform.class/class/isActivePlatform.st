@@ -1,3 +1,3 @@
-private
-isActivePlatform	
-	^Smalltalk isSqueakNOS
+testing
+isActivePlatform
+	^self currentPlatformName = 'SqueakNOS'
