@@ -6,7 +6,7 @@ writeObjectMemory: aStream
 	firstPageOffset := startAddress - (startAddress bitAnd: 16rFFFFF000).
 	aStream nextPutAll: ((self imageMemoryReadOnlyPageContents: 1) allButFirst: firstPageOffset).
 	2 to: pages - 1 do: [:index | | memory |
-		index \\ 1000 = 0  ifTrue: [Computer current primPushDebugString: 'Writing page number ', index asString, String cr].
+		index \\ 1000 = 0  ifTrue: [Computer show: 'Writing page number ', index asString].
 		aStream nextPutAll: (self imageMemoryReadOnlyPageContents: index)
 	].
 	lastAddress := startAddress + self size.

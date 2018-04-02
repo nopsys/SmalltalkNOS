@@ -2,7 +2,8 @@ irq handling
 handleMouseIRQ
 	| data |
 	data := self readMouseData.
-
+	Transcript show: 'mouse irq: ', data hex, String cr.
+	
 	"self mouseScrollingEnabled
 			ifTrue:  [Keys1 add: 'Number ', mouseDataCount asString, ' data ', data asString, '
 '. ]."
@@ -18,10 +19,12 @@ handleMouseIRQ
 
 	mouseDataCount == 1 ifTrue: [ "x delta "
 		mouseDataCount := mouseDataCount + 1.
+		Transcript show: 'x delta: ', data printString.
 		^ mouseCoord := data @ 0 + mouseCoord].
 
 	
 	mouseDataCount = 2 ifTrue: [ " y delta "
+		Transcript show: 'y delta: ', data printString.
 		mouseCoord := mouseCoord  - (0 @ data) adhereTo: Display boundingBox.
 		].
 

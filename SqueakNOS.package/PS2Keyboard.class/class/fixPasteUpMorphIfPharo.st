@@ -1,6 +1,7 @@
 class initialization
 fixPasteUpMorphIfPharo
-	SmalltalkImage current isPharo ifFalse: [^self].
+	true ifTrue: [ ^self ].
+	Computer isPharo ifFalse: [^self].
 	PasteUpMorph compile:
 	'morphsInFrontOf: someMorph overlapping: aRectangle do: aBlock
 	"Include hands if the receiver is the World"

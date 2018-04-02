@@ -1,5 +1,5 @@
 debugging
 show: aString 
-	Saving ifNotNil: [ 
-		self current ifNotNil: [ :c | c primPushDebugString: aString, String lf ]
-	]
+	self isSqueakNOS
+	 ifTrue: [ self primPushDebugString: aString, String lf]
+	 ifFalse: [ Transcript show: aString ]

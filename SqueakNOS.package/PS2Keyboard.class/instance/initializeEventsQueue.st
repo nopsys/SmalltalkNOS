@@ -2,7 +2,7 @@ initialization
 initializeEventsQueue
 	| p block |
 	events := SharedQueue new.
-	SmalltalkImage current isPharo
+	Computer isPharo
 			   ifTrue: [ block := [ Sensor handleEvent: events next ] ]
 			   ifFalse: [ block := [ Sensor processEvent: events next] ].
 	p := [ block repeat] forkAt: Processor highIOPriority.

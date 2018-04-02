@@ -8,10 +8,10 @@ initialize
 	PCIBusEntry allValid do: [:bus | Transcript show: bus; cr; cr].
 	"OldPCKeyboard installOn: Current. "
 	PS2Keyboard installOn: self.
-	self defaultNetworkInterface: nil.
-	self initializeBridge.
-	Memory installOn: self.
-	self enablePaging.
+	"self defaultNetworkInterface: nil."
+	"self initializeBridge."
+	"Memory installOn: self."
+	"self enablePaging."
 	UART16550 installOn: self.
 	CMOS installOn: self.
 "	RemoteObjectChannel installOn: self.
@@ -22,4 +22,4 @@ initialize
 	USBUHCIController installOn: self.
 	SDDevice installOn: self."
 	Display forceToScreen.
-	(self confirm: 'Do you want to load sources from disk?') ifTrue: [self openSourceFiles]
+	"(self confirm: 'Do you want to load sources from disk?') ifTrue: [self openSourceFiles]"

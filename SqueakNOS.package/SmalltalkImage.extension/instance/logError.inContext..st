@@ -1,6 +1,6 @@
 *SqueakNOS-PharoCompatibility
 logError: errMsg inContext: aContext
-	Computer isSqueakNOS ifTrue: [ ^Computer current primPushDebugString: errMsg, String cr ].
+	Computer isSqueakNOS ifTrue: [ ^Computer show: errMsg ].
 	" we should think about integrating a toothpick here someday"
 	self logStdErrorDuring: [ :stderr|
 		"install the line end conversion and force initialize the converter"

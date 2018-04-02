@@ -2,6 +2,7 @@ irq handling
 handleKeyboardIRQ
 	| scanCode key |
 	scanCode := self readKeyboardData.
+	Transcript show: 'keyboard irq: ', scanCode hex, String cr.
 
 	decoder nextScanCode: scanCode.
 	

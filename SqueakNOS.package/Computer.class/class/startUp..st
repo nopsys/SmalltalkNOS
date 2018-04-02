@@ -10,5 +10,4 @@ startUp: resuming
 				]
 		] ifFalse: [
 			Transcript cr; show: 'This is not SqueakNOS! :-('; cr.
-			FileDirectory startUp.
 		]
