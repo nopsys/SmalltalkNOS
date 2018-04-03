@@ -14,5 +14,5 @@ newMouseEvent
 		at: 7 put: 0;
 		at: 8 put: 1.
 	events nextPut: event.
-	self report: event.
-	WorldMorph doOneCycle
+	"self report: event.
+	WorldMorph doOneCycle"

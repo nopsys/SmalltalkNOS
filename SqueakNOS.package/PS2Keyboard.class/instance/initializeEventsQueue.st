@@ -5,6 +5,6 @@ initializeEventsQueue
 	Computer isPharo
 			   ifTrue: [ block := [ Sensor handleEvent: events next ] ]
 			   ifFalse: [ block := [ Sensor processEvent: events next] ].
-	p := [ block repeat] forkAt: Processor highIOPriority.
+	p := [ block repeat] forkAt: 60.
 	
 	p name: 'PS2Keboard shared queue poll'

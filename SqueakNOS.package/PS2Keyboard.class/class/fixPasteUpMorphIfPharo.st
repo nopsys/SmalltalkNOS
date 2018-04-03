@@ -1,6 +1,5 @@
 class initialization
 fixPasteUpMorphIfPharo
-	true ifTrue: [ ^self ].
 	Computer isPharo ifFalse: [^self].
 	PasteUpMorph compile:
 	'morphsInFrontOf: someMorph overlapping: aRectangle do: aBlock
