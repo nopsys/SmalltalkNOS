@@ -2,5 +2,5 @@
 startUp: resuming 
 	resuming ifTrue: [ 
 		HasNewFinalization := Computer isSqueakNOS 
-			ifTrue: [ false ]
+			ifTrue: [ true ]
 			ifFalse: [Smalltalk vm isPharoVM ] ]
