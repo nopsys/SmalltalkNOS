@@ -19,7 +19,7 @@ handleMouseIRQ
 
 	mouseDataCount == 1 ifTrue: [ "x delta "
 		mouseDataCount := mouseDataCount + 1.
-		Transcript show: 'x delta: ', data printString.
+		"Transcript show: 'x delta: ', data printString."
 		^ mouseCoord := data @ 0 + mouseCoord].
 
 	
