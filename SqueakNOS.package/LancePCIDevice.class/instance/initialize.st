@@ -1,9 +1,10 @@
-as yet unclassified
+initialization
 initialize
 	| initBlock tring rring rbuf tbuf |
-
+	"Note that the hw specification requires that all rring, tring, and initBlock are aligned to 8 bytes. 
+	We assume this is the case in a x86_64 FFI what this has to be checked"
 	rbuf := ExternalAddress allocate: 1536.
-	rring := (LanceNICReceiveRingDescriptor16 externalNewAligned: 8)
+	rring := (LanceNICReceiveRingDescriptor16 externalNew)
 		reset;
 		buffer: rbuf;
 		bufferSize: 1536;
@@ -11,12 +12,12 @@ initialize
 		beOwnedByCard.
 
 	tbuf := ExternalAddress allocate: 1536.
-	tring := (LanceNICTransmitRingDescriptor16 externalNewAligned: 8)
+	tring := (LanceNICTransmitRingDescriptor16 externalNew)
 		reset;
 		buffer: tbuf;
 		beOwnedByHost.
 		
-	initBlock := (LanceNICInitializationBlock16 externalNewAligned: 8)   
+	initBlock := (LanceNICInitializationBlock16 externalNew)   
 		mode: 0;		"auto media"
 		macAddress: self macAddress;
 		logicalAddressFilter: 0;

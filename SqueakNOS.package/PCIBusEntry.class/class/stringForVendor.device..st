@@ -7,4 +7,4 @@ stringForVendor: vendorId device: deviceId
 	device := VendorsAndDevices
 		at: vendorId << 32 + deviceId
 		ifAbsent: ['unknown ', deviceId hex].
-	^ 'Vendor: ', vendor, ' Device: ', device
+	^ 'Vendor: ', vendor, 'id()', vendorId hex printString, 'Device: ', device, 'id()', deviceId hex printString

@@ -14,9 +14,9 @@ initialize
 	"self enablePaging."
 	UART16550 installOn: self.
 	CMOS installOn: self.
-"	RemoteObjectChannel installOn: self.
+	"RemoteObjectChannel installOn: self."
 	LancePCIDevice installOn: self.
-	Realtek8139PCIDevice installOn: self.
+	"Realtek8139PCIDevice installOn: self.
 	self defaultNetworkInterface ifNotNil: [
 		self networkingStack: (EthernetInterface on: self defaultNetworkInterface)].
 	USBUHCIController installOn: self.
