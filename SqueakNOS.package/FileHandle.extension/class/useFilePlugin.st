@@ -1,3 +1,3 @@
 *SqueakNOS-PharoCompatibility
 useFilePlugin
-	Primitives := Computer isSqueakNOS ifTrue: [SqueakNOSFilePrims new] ifFalse: [FilePluginPrims new]
+	Primitives := SqueakNOSPlatform isActivePlatform ifTrue: [SqueakNOSFilePrims new] ifFalse: [FilePluginPrims new]

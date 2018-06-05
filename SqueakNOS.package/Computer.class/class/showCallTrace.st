@@ -2,5 +2,5 @@ debugging
 showCallTrace
 	| stream |
 	stream := '' writeStream.
-	thisContext printDebugOn: stream.
+	thisContext debugStack: 27 on: stream.
 	Transcript show: stream contents.

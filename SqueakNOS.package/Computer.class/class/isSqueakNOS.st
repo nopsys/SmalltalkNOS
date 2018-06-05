@@ -1,3 +1,3 @@
 testing
 isSqueakNOS
-	^Smalltalk os platformName = 'SqueakNOS'
+	^Smalltalk os isNopsys

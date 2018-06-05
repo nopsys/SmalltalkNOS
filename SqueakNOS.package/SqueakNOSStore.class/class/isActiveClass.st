@@ -1,3 +1,3 @@
 testing
 isActiveClass
-	^Computer isSqueakNOS
+	^SqueakNOSPlatform isActivePlatform

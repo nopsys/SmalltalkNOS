@@ -1,0 +1,3 @@
+*SqueakNOS-PharoCompatibility
+isNopsys
+	^ false
