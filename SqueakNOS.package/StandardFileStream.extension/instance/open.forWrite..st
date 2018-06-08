@@ -4,7 +4,7 @@ open: fileName forWrite: writeMode
 	| f |
 	f := fileName asVmPathName.
 
-	fileID := StandardFileStream retryWithGC:[Computer isSqueakNOS ifTrue: [^nil]. self primOpen: f writable: writeMode] 
+	fileID := StandardFileStream retryWithGC:[self primOpen: f writable: writeMode] 
 					until:[:id| id notNil] 
 					forFileNamed: fileName.
 	fileID ifNil: [^ nil].  "allows sender to detect failure"

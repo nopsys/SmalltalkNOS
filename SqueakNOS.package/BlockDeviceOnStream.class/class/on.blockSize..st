@@ -1,3 +1,3 @@
 instance creation
-on: aStream blockSize: aBlockSize
-	^self new on: aStream blockSize: aBlockSize
+on: aStream blockSize: anInteger 
+	^self new on: aStream blockSize: anInteger  
