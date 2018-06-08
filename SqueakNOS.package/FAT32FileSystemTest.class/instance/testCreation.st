@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testCreation
 	self shouldnt: [self newInstance] raise: Error.
 	"self shouldnt:[ATAController secondary slave] raise: Error."

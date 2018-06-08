@@ -8,8 +8,7 @@
 	"instvars" : [
 		"contentLength",
 		"offset",
-		"stream",
-		"original"
+		"stream"
 	],
 	"name" : "StreamOnStream",
 	"type" : "normal"

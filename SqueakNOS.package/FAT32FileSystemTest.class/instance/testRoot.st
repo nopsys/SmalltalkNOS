@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testRoot
 	| filesystem root |
 	filesystem := self newInstance.

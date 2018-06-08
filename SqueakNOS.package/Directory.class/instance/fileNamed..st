@@ -1,3 +1,4 @@
 services
 fileNamed: aString
-	^self files detect: [:file | file name asLowercase = (filesystem nameFormat: aString) asLowercase] 
+	^self files detect: [:file | file name asLowercase = 
+		(String streamContents: [:stream | (filesystem nameFormat: aString) asFileReference gtDisplayOn: stream]) asLowercase] 

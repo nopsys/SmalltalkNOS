@@ -1,4 +1,4 @@
-as yet unclassified
+helpers
 exampleFAT32FileNamed: aFileName
 	|  filesystem root |
 	filesystem := self newInstance.

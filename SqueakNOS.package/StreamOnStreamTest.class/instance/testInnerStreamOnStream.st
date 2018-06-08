@@ -1,9 +1,9 @@
-as yet unclassified
+tests
 testInnerStreamOnStream
 	| changes size str1 str2 |
 	changes := StandardFileStream fileNamed: 'testdata/test.changes'.
 	size := changes size.	
-	str1 := StreamOnStream on: changes offset: changes size - 100 size: 100.
+	str1 := StreamOnStream on: changes from: changes size - 100 to: changes size.
 	str1 setToEnd; nextPutAll: 'test'.
 	str2 := StreamOnStream on: str1 offset: str1 size - 10 size: 10.
 	str2 setToEnd; nextPutAll: 'test'.

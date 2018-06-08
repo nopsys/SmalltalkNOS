@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testMethodSources
 "	| image sources |
 	image := SmalltalkImage current.

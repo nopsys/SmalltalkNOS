@@ -1,7 +1,3 @@
-as yet unclassified
+helpers
 standardChangesStream
-	| fd |
-	"look for the changes file on the test directory"
-	fd := FileDirectory default / 'testdata'.
-	^fd readOnlyFileNamed: 'SqueakNOS.changes'.
-	
+	^'testData/SqueakNos.changes' asFileReference	readStream

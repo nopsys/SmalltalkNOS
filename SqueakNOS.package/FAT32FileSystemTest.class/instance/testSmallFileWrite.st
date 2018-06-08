@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testSmallFileWrite
 	| filesystem root name small stream |
 	filesystem := self newInstance.

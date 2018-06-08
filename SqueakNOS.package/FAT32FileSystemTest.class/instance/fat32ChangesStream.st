@@ -1,4 +1,4 @@
-as yet unclassified
+helpers
 fat32ChangesStream
 	|  filesystem root |
 	filesystem := self newInstance.

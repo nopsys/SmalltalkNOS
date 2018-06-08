@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testWriteAtEndOfChanges
 	| filesystem root stream changes files contents readOnlyStream |
 	filesystem := self newInstance.

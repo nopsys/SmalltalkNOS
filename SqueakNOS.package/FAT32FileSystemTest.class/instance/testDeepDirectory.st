@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testDeepDirectory
 	| filesystem directory |
 	filesystem := self newInstance.

@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testLargeFileWrite
 "	| filesystem root name small stream large files contents |
 	filesystem := self newInstance.

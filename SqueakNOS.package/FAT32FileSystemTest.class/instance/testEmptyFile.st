@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testEmptyFile
 	| filesystem root files empty |
 	filesystem := self newInstance.

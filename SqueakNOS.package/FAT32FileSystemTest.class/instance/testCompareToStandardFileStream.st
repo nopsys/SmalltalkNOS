@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testCompareToStandardFileStream
 	| fat32TestStream standardTestStream |
 	

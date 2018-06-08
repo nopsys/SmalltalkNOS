@@ -1,4 +1,4 @@
-as yet unclassified
+helpers
 createTempFile: tempFileName from: existingFileName do: aTriArgsBlock
 	| filesystem root original clone |
 	filesystem := self newInstance.
@@ -9,7 +9,7 @@ createTempFile: tempFileName from: existingFileName do: aTriArgsBlock
 	
 	[
 		clone := root newFileNamed: tempFileName.
-		clone readWriteStream nextPutAll: original readStream contents withBlanksTrimmed.
+		clone readWriteStream nextPutAll: original readStream contents trimmed.
 		aTriArgsBlock value: original value: clone value: filesystem.
 	] ensure: [
 		root removeFileNamed: tempFileName.

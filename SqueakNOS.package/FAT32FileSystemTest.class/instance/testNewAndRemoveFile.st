@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testNewAndRemoveFile
 	| filesystem root test name |
 	filesystem := self newInstance.
