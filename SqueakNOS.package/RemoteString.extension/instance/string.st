@@ -1,7 +1,7 @@
 *SqueakNOS-TemporaryCompatibility
 string 
 	"Answer the receiver's string if remote files are enabled, or nil."
-	Computer isSqueakNOS ifTrue: [ ^'' ].
+	Computer isSqueakNOS ifTrue: [ ^nil ].
 	^ SourceFiles 
 		readStreamAtFileIndex: sourceFileNumber 
 		atPosition: filePositionHi 
