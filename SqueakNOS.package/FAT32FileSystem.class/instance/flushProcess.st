@@ -1,10 +1,5 @@
 flushing
 flushProcess
-	^
-	[ 
-		(Delay forSeconds: 10) wait. 
-		self flushFatChanges.
-		self flushClusterChanges.
-	] fork.
-		
-		
+	^ [ (Delay forSeconds: 10) wait.
+	fat flushChanges.
+	self flushClusterChanges ] fork

@@ -5,7 +5,7 @@ printStringOf: aDirectory
 	out := ReadWriteStream on: ''.
 	clusters := self clustersChainFor: aDirectory.
 	clusters do: [ :aNumber |
-		cluster := self clusterNumber: aNumber.
+		cluster := self clusterAt: aNumber.
 		cluster fileRecords do: [ :record |
 			out nextPutAll: 'File: ', record name;
 				nextPutAll: ', first cluster: ', record firstCluster;

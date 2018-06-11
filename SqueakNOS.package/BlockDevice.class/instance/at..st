@@ -1,4 +1,3 @@
 real access
 at: aBlockNumber
-	^ self subclassResponsibility.
-	
+	^ self subclassResponsibility

@@ -1,7 +1,9 @@
-as yet unclassified
-at: aBlockNumber 
+accessing
+at: aBlockNumber
 	"Retrieve sector number aBlockNumber from device"
-	| result | 
+
+	| result |
 	result := deviceA at: aBlockNumber.
-	(deviceB at: aBlockNumber) = result ifFalse: [ self error: 'Read failed' ].
-	^result.
+	(deviceB at: aBlockNumber) = result
+		ifFalse: [ self error: 'Read failed' ].
+	^ result

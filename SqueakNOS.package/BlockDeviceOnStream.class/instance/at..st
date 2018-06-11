@@ -1,6 +1,6 @@
-as yet unclassified
-at: aBlockNumber 
+accessing
+at: aBlockNumber
 	"Retrieve sector number aBlockNumber from device"
 
-	stream position: (aBlockNumber - 1 * self blockSize).
-	^stream next: self blockSize.
+	stream position: (aBlockNumber - 1) * self blockSize.
+	^ stream next: self blockSize

@@ -15,3 +15,4 @@ SystemOrganization addCategory: 'SqueakNOS-MemoryManager-Paging'!
 SystemOrganization addCategory: 'SqueakNOS-OFW-OLPC'!
 SystemOrganization addCategory: 'SqueakNOS-PharoCompatibility'!
 SystemOrganization addCategory: 'SqueakNOS-Storage'!
+SystemOrganization addCategory: 'SqueakNOS-Storage-Tests'!

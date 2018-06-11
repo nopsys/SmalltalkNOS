@@ -6,6 +6,6 @@ printOn: out
 		nextPutAll: 'Offset to Partition: ', offsetToPartition; cr;
 		nextPutAll: 'Begin of FAT: ', self fatBeginLBA; cr;
 		nextPutAll: 'Begin of data clusters: ', self clusterBeginLBA; cr; cr;
-		nextPutAll: bootRecord printString; cr; cr;
+		nextPutAll: bootRecordCache printString; cr; cr;
 		nextPutAll: self root printString.
 	 

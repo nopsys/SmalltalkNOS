@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "ArrayedCollection",
+	"category" : "SqueakNOS-Storage",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"contents"
+	],
+	"name" : "ByteArrayOnStream",
+	"type" : "normal"
+}

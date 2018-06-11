@@ -6,10 +6,12 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
+		"contents",
+		"bootRecordCache",
+		"fat",
+		"clusterContents",
 		"stream",
 		"offsetToPartition",
-		"bootRecord",
-		"fat",
 		"flushProcess"
 	],
 	"name" : "FAT32FileSystem",

@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "PositionableStream",
-	"category" : "SqueakNOS-Filesystems",
+	"category" : "SqueakNOS-Storage",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

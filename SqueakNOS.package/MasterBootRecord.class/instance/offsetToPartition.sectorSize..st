@@ -4,4 +4,4 @@ offsetToPartition: aNumber sectorSize: aSectorSize
 	 are placed in a table. aNumber can be 1, 2, 3 or 4.
 	Result is 0-indexed"
 
-	^(self partitionRecord: aNumber) offsetFromMBR * aSectorSize.
+	^ (self partitionRecord: aNumber) offsetFromMBR * (aSectorSize ifNil: [ 512 ])
