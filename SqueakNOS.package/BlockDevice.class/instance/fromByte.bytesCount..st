@@ -1,11 +1,8 @@
-as yet unclassified
-fromByte: sourceOffset bytesCount: bytesCount
-	
+instance creation
+fromByte: byteIndex bytesCount: bytesCount
 	| data firstBlock lastBlock firstBlockBytesOffset |
-	firstBlock := self blockNumberFromByteOffset: sourceOffset.
-	lastBlock := self blockNumberFromByteOffset: sourceOffset + bytesCount - 1.
-	
+	firstBlock := self blockNumberFromByteIndex: byteIndex.
+	lastBlock := self blockNumberFromByteIndex: byteIndex + bytesCount - 1.
 	data := self from: firstBlock to: lastBlock.
-		
-	firstBlockBytesOffset := sourceOffset - 1 \\ 512 + 1.
-	^ data copyFrom: firstBlockBytesOffset to: firstBlockBytesOffset + bytesCount - 1.
+	firstBlockBytesOffset := (byteIndex - 1) \\ 512 + 1.
+	^ data copyFrom: firstBlockBytesOffset to: firstBlockBytesOffset + bytesCount - 1

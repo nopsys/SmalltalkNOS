@@ -1,4 +1,4 @@
 as yet unclassified
-blockNumberFromByteOffset: anInteger
+blockNumberFromByteIndex: anInteger
 
 	^anInteger - 1 // self blockSize + 1.

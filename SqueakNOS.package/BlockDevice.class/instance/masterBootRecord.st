@@ -1,3 +1,3 @@
 filesystem
 masterBootRecord
-	^(MasterBootRecord on: self)
+	^ MasterBootRecord on: (self at: 1)

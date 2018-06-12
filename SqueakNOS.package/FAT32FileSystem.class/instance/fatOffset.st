@@ -1,4 +1,4 @@
 private
-fatStart
+fatOffset
 	^self reservedSectors * self bytesPerSector
 	

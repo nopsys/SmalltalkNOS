@@ -2,8 +2,8 @@ as yet unclassified
 readInto: byteArray startWritingAtByte: destOffset startReadingAtByte: sourceOffset bytesCount: bytesCount
 	
 	| data firstBlock lastBlock firstBlockBytesOffset |
-	firstBlock := device blockNumberFromByteOffset: sourceOffset.
-	lastBlock := device blockNumberFromByteOffset: sourceOffset + bytesCount - 1.
+	firstBlock := device blockNumberFromByteIndex: sourceOffset.
+	lastBlock := device blockNumberFromByteIndex: sourceOffset + bytesCount - 1.
 	
 	data := device from: firstBlock to: lastBlock.
 	

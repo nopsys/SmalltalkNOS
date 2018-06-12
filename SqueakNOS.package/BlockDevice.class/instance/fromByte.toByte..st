@@ -2,8 +2,8 @@ as yet unclassified
 fromByte: firstByte toByte: lastByte
 	
 	| data firstBlock lastBlock firstBlockBytesOffset |
-	firstBlock := self blockNumberFromByteOffset: firstByte.
-	lastBlock := self blockNumberFromByteOffset: lastByte.
+	firstBlock := self blockNumberFromByteIndex: firstByte.
+	lastBlock := self blockNumberFromByteIndex: lastByte.
 	
 	data := self from: firstBlock to: lastBlock.
 		

@@ -1,3 +1,3 @@
 converting
 errorInBounds: anInteger
-	self halt
+	self error: 'out of bounds: ', anInteger printString

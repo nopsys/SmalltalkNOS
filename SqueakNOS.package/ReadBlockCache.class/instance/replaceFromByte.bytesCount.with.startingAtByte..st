@@ -4,8 +4,8 @@ replaceFromByte: destOffset bytesCount: bytesCount with: source startingAtByte: 
 	 overwriting."
 	| data firstBlock lastBlock blocksCount firstBlockBytesOffset lastBlockBytesCount blockData firstSectorRead |
 	
-	firstBlock := device blockNumberFromByteOffset: destOffset.
-	lastBlock := device blockNumberFromByteOffset: destOffset + bytesCount - 1.
+	firstBlock := device blockNumberFromByteIndex: destOffset.
+	lastBlock := device blockNumberFromByteIndex: destOffset + bytesCount - 1.
 	blocksCount := lastBlock - firstBlock + 1.
 	
 	firstSectorRead := false.

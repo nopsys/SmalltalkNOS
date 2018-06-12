@@ -1,3 +1,3 @@
 accessing
 clusterChainEndValue
-	^16r0FFFFFFF.
+	^16r0FFFFFF8.

@@ -6,7 +6,7 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"contents"
+		"stream"
 	],
 	"name" : "ByteArrayOnStream",
 	"type" : "normal"
