@@ -1,8 +1,9 @@
 tests
-testEmptyFile
+test010EmptyFile
 	"
-	self new testEmptyFile
+	self new test010EmptyFile
 	"
+
 	| filesystem root files empty |
 	filesystem := self openRawFilesystem: './testdata/FAT32PartitionSmall.raw'.
 	root := filesystem root.

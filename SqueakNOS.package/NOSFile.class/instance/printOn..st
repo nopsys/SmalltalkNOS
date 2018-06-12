@@ -1,3 +1,4 @@
 printing
 printOn: aStream
-	aStream nextPutAll: self name
+	aStream
+		nextPutAll: 'NOS File: ' , self name, ' (', identifier hex, ')'
