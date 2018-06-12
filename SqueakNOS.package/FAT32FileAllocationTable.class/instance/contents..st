@@ -1,3 +1,3 @@
 accessing
-contents: aStream	
-	contents := aStream
+contents: bytes
+	contents := bytes

@@ -1,3 +1,3 @@
 private
 startOfClusterSectors
-	^(self offsetToPartition + (self numberOfCopiesOfFAT * self bytesPerFAT) / self bytesPerSector) + self reservedSectors.
+	^(self numberOfCopiesOfFAT * self bytesPerFAT) / self bytesPerSector + self reservedSectors.

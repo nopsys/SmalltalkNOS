@@ -1,11 +1,13 @@
 services
 internalClusterChainFor: aClusterNumber preferredSize: aPreferredSize
-	| chain nextCluster position| 
-	nextCluster := aClusterNumber.
+	| chain next end  |
+	next := aClusterNumber.
 	chain := OrderedCollection new: aPreferredSize.
-	[(nextCluster bitAnd: 16r0FFFFFFF) = 16r0FFFFFFF] whileFalse: [
-		chain add: nextCluster.	
-		position := nextCluster * self recordSize.
-		nextCluster := contents unsignedLongAt: position
-	].
-	^chain
+	end := self clusterChainEndValue.
+	[ next := next bitAnd: 16r0FFFFFFF.
+	next = end ]
+		whileFalse: [ next = 0
+				ifTrue: [ self error: 'broken FAT: found empty cluster while following cluster chain' ].
+			chain add: next.
+			next := self at: next ].
+	^ chain

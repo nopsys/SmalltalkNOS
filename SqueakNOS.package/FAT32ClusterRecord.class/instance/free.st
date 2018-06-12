@@ -1,4 +1,3 @@
 accessing
 free
-	contents position: 0.
-	^contents nextPut: self unusedByte
+	^ contents at: 1 put: self unusedByte

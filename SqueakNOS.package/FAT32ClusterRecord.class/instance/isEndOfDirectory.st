@@ -1,5 +1,4 @@
 testing
 isEndOfDirectory
-	contents position: 0.
-	^contents next isZero
+	^(contents byteAt: 1) isZero
 	

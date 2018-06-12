@@ -1,10 +1,10 @@
 services
-addCluster: aNumber to: anotherNumber
+addCluster: aNumber to: chainId
 	| chain last |
-	anotherNumber > 0 ifTrue: [
-		chain := self chainFor: anotherNumber.
+	chainId > 0 ifTrue: [
+		chain := self chainFor: chainId.
 		last := chain last.
 		chain add: aNumber.
-		self point: last to: aNumber].
-	self	 point: aNumber to: (self finishClustersChainValue unsignedLongAt: 1).
+		self at: last put: aNumber].
+	self at: aNumber put: self clusterChainEndValue
 	

@@ -1,5 +1,5 @@
 services
-writeFrom: aNumber with: stringOrByteArray startingAt: anotherNumber count: count
-	contents position: aNumber.
-	contents nextPutAll: (stringOrByteArray copyFrom: anotherNumber to: anotherNumber + count - 1) asByteArray.
-	^count
+writeFrom: start with: stringOrByteArray startingAt: otherStart count: count
+	contents
+		replaceFrom: start to: start + count - 1 with: stringOrByteArray startingAt: otherStart.
+	^ count

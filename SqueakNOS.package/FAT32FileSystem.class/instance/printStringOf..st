@@ -8,8 +8,8 @@ printStringOf: aDirectory
 		cluster := self clusterAt: aNumber.
 		cluster fileRecords do: [ :record |
 			out nextPutAll: 'File: ', record name;
-				nextPutAll: ', first cluster: ', record firstCluster;
-				nextPutAll: ', size: ', record size; nextPut: Character cr ].
+				nextPutAll: ', first cluster: '; << record firstCluster;
+				nextPutAll: ', size: '; << record size; nextPut: Character cr ].
 	].
 	 
 	^out contents.

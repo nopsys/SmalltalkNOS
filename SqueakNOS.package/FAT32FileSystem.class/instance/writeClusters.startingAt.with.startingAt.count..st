@@ -12,7 +12,7 @@ writeClusters: clusters startingAt: aNumber with: stringOrByteArray startingAt: 
 		cluster := self clusterAt: clusterStartNumber.
 		toWrite := cluster size * numberOfClusters - start min: count - written.
 		self positionOfCluster: clusterStartNumber.
-		clusterContents replaceFrom: start to: toWrite with: stringOrByteArray startingAt: anotherNumber + written.
+		clusterContents replaceFrom: start + 1 to: toWrite + start with: stringOrByteArray startingAt: anotherNumber + written.
 		start := 0.
 		written := written + toWrite.
 	].

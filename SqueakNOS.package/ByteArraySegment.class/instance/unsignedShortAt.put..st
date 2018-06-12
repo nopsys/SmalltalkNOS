@@ -1,3 +1,3 @@
 converting
-unsignedShortAt: byteOffset put: value
-	contents unsignedShortAt: byteOffset + offset put: value
+unsignedShortAt: byteIndex put: value
+	contents unsignedShortAt: byteIndex + offset put: value

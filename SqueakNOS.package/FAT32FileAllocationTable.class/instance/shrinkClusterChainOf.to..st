@@ -6,7 +6,7 @@ shrinkClusterChainOf: aNumber to: length
 	size > length ifFalse: [^self].
 	toRemove := length - size.
 	last := chain at: length.
-	self	 point: last to: (self finishClustersChainValue unsignedLongAt: 1). 
+	self at: last put: self clusterChainEndValue. 
 	chain := chain last: toRemove.
-	chain do: [:number | self point: number to: 0].
+	chain do: [:index | self at: index put: 0].
 	

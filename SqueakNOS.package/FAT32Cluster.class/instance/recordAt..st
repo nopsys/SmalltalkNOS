@@ -1,7 +1,7 @@
 services
 recordAt: index
-	| size strm newIndex |
+	| size start bytes |
 	size := self recordSize.
-	newIndex := index - 1 * size.
-	strm := StreamOnStream on: contents from: newIndex to: newIndex + size.
-	^FAT32ClusterRecord contents: strm.
+	start := (index - 1) * size.
+	bytes := contents segmentFrom: start + 1  size: size.
+	^ FAT32ClusterRecord contents: bytes

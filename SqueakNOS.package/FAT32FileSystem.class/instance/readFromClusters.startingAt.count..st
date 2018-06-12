@@ -7,7 +7,7 @@ readFromClusters: clusters startingAt: aNumber count: count
 	clusters do: [ :clusterNumber |
 			cluster := self clusterAt: clusterNumber.
 			qty := (cluster size min: self bytesPerCluster - index) min: count - contentsIndex + 1. 
-			bytes := cluster bytes: qty startingAt: index.
+			bytes := cluster at: index count: qty.
 			result replaceFrom: contentsIndex to: contentsIndex + bytes size - 1 with: bytes.
 			index := 0.
 			contentsIndex := contentsIndex + bytes size].

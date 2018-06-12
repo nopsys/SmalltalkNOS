@@ -1,4 +1,3 @@
 accessing
 attrib
-	contents position: 16r0B.
-	^contents next	
+	^ contents byteAtOffset: 16r0B

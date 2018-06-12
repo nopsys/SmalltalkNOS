@@ -1,5 +1,4 @@
 private
-positionOfCluster: aNumber
-	| corrected |
-	corrected := self clusterIndexCorrection: aNumber.
-	^ corrected * self bytesPerCluster
+positionOfCluster: index
+	"cluster numbers are 0-based"
+	^index * self bytesPerCluster + 1

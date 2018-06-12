@@ -1,4 +1,4 @@
 private
 setPositionToClusterRecordInFAT: aNumber
-	stream position: self fatBeginLBA + (aNumber * self fatRecordSize).
+	stream position: self fatBeginOffset + (aNumber * self fatRecordSize).
 	

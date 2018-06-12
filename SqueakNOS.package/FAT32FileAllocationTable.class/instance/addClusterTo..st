@@ -1,11 +1,11 @@
 services
-addClusterTo: aNumber
+addClusterTo: chainStart
 	| last index chain |
-	last := aNumber > 0 ifTrue: 
-		[(self clustersChainFor: aNumber) last]
+	last := chainStart > 0 ifTrue: 
+		[(self clustersChainFor: chainStart) last]
 	 ifFalse:
 		 [0].
 	index := self firstFreeClusterSince: last.
-	"Transcript show: 'Adding cluster: ', index printString, 'to: ', aNumber printString, Character cr."
-	self addCluster: index to: aNumber.
+	"Transcript show: 'Adding cluster: ', index printString, 'to: ', chainStart printString, Character cr."
+	self addCluster: index to: chainStart.
 	^index

@@ -1,4 +1,5 @@
 converting
-unsignedLongAt: index
-	(1 <= index and: [ index + 3 <= size ]) ifFalse: [ self errorInBounds: index ].
-	^contents unsignedLongAt: index + offset
+unsignedLongAt: byteIndex
+	(1 <= byteIndex and: [ byteIndex + 3 <= size ])
+		ifFalse: [ self errorInBounds: byteIndex ].
+	^ contents unsignedLongAt: byteIndex + offset
