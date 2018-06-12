@@ -1,5 +1,5 @@
 tests
-test20EmptyRoot
+test020EmptyRoot
 	| filesystem root |
 	filesystem := self newInstance.
 	root := filesystem root.

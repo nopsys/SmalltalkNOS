@@ -1,5 +1,5 @@
 tests
-testBootRecord
+test010BootRecord
 	| br |
 	br := self newInstance bootRecord.
 	self assert: br bytesPerSector = 512;

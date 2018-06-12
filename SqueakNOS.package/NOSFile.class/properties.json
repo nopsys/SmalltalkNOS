@@ -1,16 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "Object",
+	"super" : "NOSFilesystemContent",
 	"category" : "SqueakNOS-Filesystems",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"name",
-		"identifier",
-		"filesystem",
-		"directory"
-	],
-	"name" : "FilesystemContent",
+	"instvars" : [ ],
+	"name" : "NOSFile",
 	"type" : "normal"
 }
