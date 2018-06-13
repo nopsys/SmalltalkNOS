@@ -1,3 +1,3 @@
 accessing
 size: value
-	^ contents unsignedLongAtOffset: value
+	^ contents unsignedLongAtOffset: 16r1C put: value

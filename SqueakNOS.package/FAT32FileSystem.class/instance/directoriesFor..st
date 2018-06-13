@@ -7,7 +7,7 @@ directoriesFor: aDirectory
 		cluster := self clusterAt: aNumber.
 		subdirs := (cluster directoryRecords 
 			select: [:record | record isInternal not]
-			thenCollect: [:record | Directory 
+			thenCollect: [:record | NOSDirectory 
 												named: record name
 												identifier: record firstCluster
 												filesystem: self

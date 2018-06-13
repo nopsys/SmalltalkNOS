@@ -1,5 +1,5 @@
 tests
-testMethodSources
+test100MethodSources
 "	| image sources |
 	image := SmalltalkImage current.
 	[image openSourceFilesForSqueakNos.

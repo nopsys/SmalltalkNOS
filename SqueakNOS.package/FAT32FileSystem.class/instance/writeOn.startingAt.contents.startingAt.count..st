@@ -1,11 +1,11 @@
 services
-writeOn: aFile startingAt: aFileOffset contents: stringOrByteArray startingAt: anotherNumber count: aByteCount
+writeOn: aFile startingAt: aFileOffset contents: bytes startingAt: bytesStart count: count
 	"notice: aFileOffset  is zero indexed, anotherNumber is not"
 	| helper firstIndex lastIndex clusters |
 
 	helper := BlockArithmetic new size: self bytesPerCluster.
 	firstIndex := helper blockNumberOf: aFileOffset + 1.
-	lastIndex := helper blockNumberOf: aFileOffset + aByteCount.
+	lastIndex := helper blockNumberOf: aFileOffset + count.
 	
 	aFile identifier = 0 ifTrue: [self addFirstClusterTo: aFile].
 	
@@ -14,4 +14,4 @@ writeOn: aFile startingAt: aFileOffset contents: stringOrByteArray startingAt: a
 	
 	^self writeClusters: (clusters copyFrom: firstIndex to: lastIndex)
 		   startingAt: (helper positionInBlockOf: aFileOffset + 1)
-	  	   with: stringOrByteArray startingAt: anotherNumber count: aByteCount.	
+	  	   with: bytes startingAt: bytesStart count: count.	

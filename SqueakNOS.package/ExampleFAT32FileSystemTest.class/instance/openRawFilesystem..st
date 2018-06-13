@@ -1,7 +1,6 @@
 helpers
 openRawFilesystem: fileName
-	| stream bytes |
+	| stream  |
+	"We create a copy so that in the worse case we don't break the test filesystem"
 	stream := StandardFileStream fileNamed: fileName.
-	stream binary.
-	bytes := ByteArrayOnStream on: stream.
-	^ (FAT32FileSystem on: bytes) open
+	^ (FAT32FileSystem on: stream binary contents) open
