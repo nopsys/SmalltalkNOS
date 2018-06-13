@@ -1,7 +1,7 @@
 tests
 test010BootRecord
 	| br |
-	br := self newInstance bootRecord.
+	br := self memoryFilesystem bootRecord.
 	self assert: br bytesPerSector = 512;
 		assert: br sectorsPerCluster = 1;
 		assert: br reservedSectors = 16r20;

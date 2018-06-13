@@ -1,8 +1,7 @@
 tests
 test020EmptyRoot
-	| filesystem root |
-	filesystem := self newInstance.
-	root := filesystem root.
+	| root |
+	root := self memoryFilesystem root.
 	self
-		assert: root directories size = 0;
-		assert: root files size = 0
+		assert: root directories size equals: 0;
+		assert: root files size equals: 0

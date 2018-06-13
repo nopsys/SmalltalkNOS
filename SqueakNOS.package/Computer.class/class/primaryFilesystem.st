@@ -1,5 +1,5 @@
 filesystem
 primaryFilesystem
-	^self isSqueakNOS
-				ifTrue: [self diskFS]
-				ifFalse: [self fileFS].
+	^ self isSqueakNOS
+		ifTrue: [ self diskFS ]
+		ifFalse: [ self halt ]
