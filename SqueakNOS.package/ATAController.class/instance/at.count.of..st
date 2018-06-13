@@ -7,7 +7,7 @@ at: firstSectorNumber count: aNumberOfSectors of: aDeviceNumber
 	remaining := aNumberOfSectors .
 	alreadyRead := 0.
 	
-	answer := ByteString new: remaining * self sectorSize.
+	answer := ByteArray new: remaining * self sectorSize.
 	nextBlockNumber := firstSectorNumber - 1.
 
 	[ remaining > 0 ] whileTrue: [ | chunkSize | 

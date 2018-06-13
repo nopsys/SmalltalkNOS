@@ -1,7 +1,7 @@
 private
 readAllAvailable: sectorCount
 	| answer nextPosition |
-	answer := ByteString new: sectorCount * self sectorSize.
+	answer := ByteArray new: sectorCount * self sectorSize.
 	nextPosition := 1.
 	[ self moreDataIsAvailable ] whileTrue: [
 		answer replaceFrom: nextPosition to: nextPosition + self sectorSize - 1 with: self readSector startingAt:1.
