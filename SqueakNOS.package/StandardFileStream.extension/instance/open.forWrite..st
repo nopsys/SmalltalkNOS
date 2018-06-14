@@ -2,6 +2,7 @@
 open: fileName forWrite: writeMode 
 	"Open the file with the given name. If writeMode is true, allow writing, otherwise open the file in read-only mode."
 	| f |
+	Computer isSqueakNOS ifTrue: [ ^nil ].
 	f := fileName asVmPathName.
 
 	fileID := StandardFileStream retryWithGC:[self primOpen: f writable: writeMode] 
