@@ -1,0 +1,3 @@
+*SqueakNOS-BenchSupport
+closed
+	^ false.
