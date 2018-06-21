@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "gera 7/22/2006 13:51",
 	"super" : "Object",
-	"category" : "SqueakNOS-Kernel",
+	"category" : "SqueakNOS-Devices-Base",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

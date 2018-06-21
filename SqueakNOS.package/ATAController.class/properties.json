@@ -8,7 +8,11 @@
 		"primary",
 		"secondary"
 	],
-	"instvars" : [ ],
+	"instvars" : [
+		"busMaster",
+		"semaphore",
+		"buffer"
+	],
 	"name" : "ATAController",
 	"type" : "normal"
 }

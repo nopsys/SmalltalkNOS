@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "PCIDevice",
+	"category" : "SqueakNOS-Devices-Storage",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"channelOffset"
+	],
+	"name" : "PCIBusMaster",
+	"type" : "normal"
+}
