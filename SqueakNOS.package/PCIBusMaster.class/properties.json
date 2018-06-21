@@ -6,7 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"channelOffset"
+		"channelOffset",
+		"table"
 	],
 	"name" : "PCIBusMaster",
 	"type" : "normal"

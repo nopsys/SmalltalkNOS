@@ -4,8 +4,8 @@ issueReadOf: size into: target
 	position := target.
 	self setDirectionToRead; clearInterruptAndErrorBits.
 	self entriesFor: size do:  [ :chunkSize |
-		self atNextFreeEntryPutSize: chunkSize address: position; advanceEntry.
+		table atNextFreeEntryPutSize: chunkSize address: position; advanceEntry.
 		position := position + chunkSize ].
 	
-	self markEndOfTransfer.
+	table markEndOfTransfer.
 	
