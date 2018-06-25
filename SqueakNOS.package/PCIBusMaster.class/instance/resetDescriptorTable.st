@@ -1,0 +1,3 @@
+initialization
+resetDescriptorTable
+	table reset

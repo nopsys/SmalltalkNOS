@@ -7,7 +7,7 @@ writeDataOld: source fromByte: sourceOffset atByteOffset: destOffset bytesCount:
 	sector := self offsetToSector: destOffset.
 	sectorCount := (self offsetToSector: count) + 1.
 	data := self
-		sectorCount: sectorCount;
+		regSectorCount: sectorCount;
 		selectSector: sector ofDrive: aDriveNumber;
 		cmdReadSectorsWithRetry;
 		readAllAvailable.
@@ -19,7 +19,7 @@ writeDataOld: source fromByte: sourceOffset atByteOffset: destOffset bytesCount:
 		startingAt: sourceOffset.
 		
 	self
-		sectorCount: sectorCount;
+		regSectorCount: sectorCount;
 		selectSector: sector ofDrive: aDriveNumber;
 		cmdWriteSectorsWithRetry;
 		atDataPortRegWrite: data.

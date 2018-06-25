@@ -1,4 +1,4 @@
 converting
 byteAt: index
 	self validateIndex: index.
-	^contents at: offset + index
+	^ contents byteAt: offset + index

@@ -1,3 +1,4 @@
 registers
 handleIRQ
-	semaphore signal
+	Transcript show: 'disk irq!'.
+	transferReady signal

@@ -1,3 +1,3 @@
 instance creation
 onPort: portNumber
-	^(super onPort: portNumber) initializeBusMaster
+	^ (super onPort: portNumber) initializeControlBlock; initializeBusMaster

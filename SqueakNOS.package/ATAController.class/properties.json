@@ -9,9 +9,12 @@
 		"secondary"
 	],
 	"instvars" : [
+		"control",
 		"busMaster",
-		"semaphore",
-		"buffer"
+		"buffer",
+		"done",
+		"busy",
+		"transferReady"
 	],
 	"name" : "ATAController",
 	"type" : "normal"

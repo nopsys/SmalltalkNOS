@@ -1,0 +1,3 @@
+initialization
+address
+	^address asInteger 
