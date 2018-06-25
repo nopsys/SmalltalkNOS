@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "ArrayedCollection",
+	"category" : "SqueakNOS-Net-Support",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"contents",
+		"bitSize"
+	],
+	"name" : "BitArray",
+	"type" : "normal"
+}

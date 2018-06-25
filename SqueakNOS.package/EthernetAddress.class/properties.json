@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "NetAddress",
+	"category" : "SqueakNOS-Net-Support",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "EthernetAddress",
+	"type" : "normal"
+}

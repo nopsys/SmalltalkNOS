@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "SequenceableCollection",
+	"category" : "SqueakNOS-Net-Support",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"buffer",
+		"head",
+		"tally"
+	],
+	"name" : "CircularBuffer",
+	"type" : "normal"
+}
