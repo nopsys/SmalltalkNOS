@@ -5,7 +5,7 @@ readAllAvailable: sectorCount
 	answer := ByteArray new: sectorCount * each.
 	nextPosition := 1.
 	sectorCount timesRepeat: [ 
-			self waitUntilDataTransferIsReady.
+			self waitUntilDeviceIsReadyForTransfer.
 			answer
 				replaceFrom: nextPosition
 				to: nextPosition + self sectorSize - 1

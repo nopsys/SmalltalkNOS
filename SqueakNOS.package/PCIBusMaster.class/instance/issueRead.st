@@ -1,7 +1,7 @@
 initialization
 issueRead
 	self
-		clearStartStopBit;
+		stopTransfer;
 		setDescriptorTablePointerRegister;
 		setDirectionToWriteIntoBus;
 		clearInterruptAndErrorBits;

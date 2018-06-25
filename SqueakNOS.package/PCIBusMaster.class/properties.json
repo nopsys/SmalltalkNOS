@@ -8,7 +8,9 @@
 	"instvars" : [
 		"channelOffset",
 		"table",
-		"function"
+		"function",
+		"next",
+		"offset"
 	],
 	"name" : "PCIBusMaster",
 	"type" : "normal"

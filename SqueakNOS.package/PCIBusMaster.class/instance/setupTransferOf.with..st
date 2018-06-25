@@ -1,7 +1,8 @@
 initialization
 setupTransferOf: size with: buffer
 	| position |
-	position := buffer asInteger.
+	"buffer replaceFrom: 1 to: size with: 0."
+	position := buffer asInteger + offset.
 	self
 		entriesFor: size
 		do: [ :chunkSize | 
@@ -10,3 +11,4 @@ setupTransferOf: size with: buffer
 				advanceEntry.
 			position := position + chunkSize ].
 	table markEndOfTransfer
+	"offset := offset + size"

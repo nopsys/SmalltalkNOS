@@ -20,7 +20,6 @@ at: startSector count: sectorCount of: deviceNumber into: answer
 						device: deviceNumber
 						timeout: self readMillisecondsTimeout)
 				startingAt: 1.
-			busMaster resetDescriptorTable.
 			nextBlockNumber := nextBlockNumber + chunkSize.
 			alreadyRead := alreadyRead + 256.
 			remaining := remaining - 256 ].

@@ -1,6 +1,10 @@
 services
 doReadSectors: sectorCount
-	^ self
+	| result |
+	result := self
 		cmdReadSectors;
-		readAllAvailable: sectorCount
-
+		readAllAvailable: sectorCount.
+	self reenableIRQsAndCheckForErrors.
+	^result
+	
+		

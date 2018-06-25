@@ -6,4 +6,5 @@ initialize
 	buffer := ExternalAddress allocate: 64 * 3 * 1024.
 	buffer fromInteger: (buffer asInteger alignedTo: 64 * 1024).
 	transferReady := Semaphore new.
+	transferReadyBool := false.
 	busy := Semaphore forMutualExclusion

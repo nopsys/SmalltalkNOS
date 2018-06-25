@@ -14,7 +14,9 @@
 		"buffer",
 		"done",
 		"busy",
-		"transferReady"
+		"transferReady",
+		"transferReadyBool",
+		"interruptController"
 	],
 	"name" : "ATAController",
 	"type" : "normal"
