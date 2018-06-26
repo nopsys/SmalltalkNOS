@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "IPPacket",
+	"category" : "SqueakNOS-Net-Packets",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "IPv6Packet",
+	"type" : "normal"
+}

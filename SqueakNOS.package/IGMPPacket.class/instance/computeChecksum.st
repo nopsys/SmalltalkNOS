@@ -1,0 +1,3 @@
+helpers
+computeChecksum
+	^ 0

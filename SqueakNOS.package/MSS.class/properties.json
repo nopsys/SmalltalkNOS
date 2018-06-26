@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "TCPOption",
+	"category" : "SqueakNOS-Net-Options-TCP",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "MSS",
+	"type" : "normal"
+}

@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "RecordRoute",
+	"category" : "SqueakNOS-Net-Options-IP",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "LSRR",
+	"type" : "normal"
+}

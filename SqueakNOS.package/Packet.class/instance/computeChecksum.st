@@ -1,0 +1,3 @@
+helpers
+computeChecksum
+	^ self subclassResponsibility

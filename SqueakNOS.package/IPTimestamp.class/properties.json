@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "IPOption",
+	"category" : "SqueakNOS-Net-Options-IP",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "IPTimestamp",
+	"type" : "normal"
+}

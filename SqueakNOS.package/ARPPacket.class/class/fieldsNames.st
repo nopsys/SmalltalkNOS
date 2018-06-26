@@ -1,0 +1,3 @@
+accessing
+fieldsNames
+	^ #(hardwareAddressFormat protocolAddressFormat hardwareAddressLength protocolAddressLength opcode opcodeName)
