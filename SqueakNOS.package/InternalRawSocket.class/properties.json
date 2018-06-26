@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "InternalSocket",
+	"category" : "SqueakNOS-Net-Conduits",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"inputQ",
+		"inputStream"
+	],
+	"name" : "InternalRawSocket",
+	"type" : "normal"
+}

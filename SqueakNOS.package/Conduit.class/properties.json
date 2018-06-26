@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "SqueakNOS-Net-Conduits",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"left",
+		"right",
+		"timer"
+	],
+	"name" : "Conduit",
+	"type" : "normal"
+}

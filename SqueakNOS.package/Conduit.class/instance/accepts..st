@@ -1,0 +1,3 @@
+flow
+accepts: aPacket
+	^ true

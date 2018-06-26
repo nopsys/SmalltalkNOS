@@ -12,6 +12,8 @@ SystemOrganization addCategory: 'SqueakNOS-Filesystems-FAT32'!
 SystemOrganization addCategory: 'SqueakNOS-Kernel'!
 SystemOrganization addCategory: 'SqueakNOS-Memory-Manager'!
 SystemOrganization addCategory: 'SqueakNOS-MemoryManager-Paging'!
+SystemOrganization addCategory: 'SqueakNOS-Net-Conduits'!
+SystemOrganization addCategory: 'SqueakNOS-Net-Exceptions'!
 SystemOrganization addCategory: 'SqueakNOS-Net-Interfaces'!
 SystemOrganization addCategory: 'SqueakNOS-Net-Options-IP'!
 SystemOrganization addCategory: 'SqueakNOS-Net-Options-TCP'!
