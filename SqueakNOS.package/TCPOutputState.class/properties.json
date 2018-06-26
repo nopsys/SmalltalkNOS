@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "SqueakNOS-Net-Protocols-TCP-States-Output",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"socket"
+	],
+	"name" : "TCPOutputState",
+	"type" : "normal"
+}

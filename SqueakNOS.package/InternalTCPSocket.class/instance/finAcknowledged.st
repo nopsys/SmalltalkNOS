@@ -1,0 +1,3 @@
+protocol
+finAcknowledged
+	^ lastAcknowledged >= finSequence

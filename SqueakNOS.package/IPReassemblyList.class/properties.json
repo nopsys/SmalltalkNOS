@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "SqueakNOS-Net-Protocols-IP",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"fragments",
+		"timeout"
+	],
+	"name" : "IPReassemblyList",
+	"type" : "normal"
+}

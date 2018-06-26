@@ -1,0 +1,3 @@
+protocol
+lastAcknowledged
+	^ lastAcknowledged

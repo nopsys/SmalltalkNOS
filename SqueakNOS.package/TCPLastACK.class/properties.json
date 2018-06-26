@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "len 12/25/2001 17:04",
+	"super" : "TCPState",
+	"category" : "SqueakNOS-Net-Protocols-TCP-States",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "TCPLastACK",
+	"type" : "normal"
+}

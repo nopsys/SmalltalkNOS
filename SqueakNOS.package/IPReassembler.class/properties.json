@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "Conduit",
+	"category" : "SqueakNOS-Net-Protocols-IP",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"lists"
+	],
+	"name" : "IPReassembler",
+	"type" : "normal"
+}

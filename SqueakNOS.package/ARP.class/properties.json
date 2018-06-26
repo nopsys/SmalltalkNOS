@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "Conduit",
+	"category" : "SqueakNOS-Net-Protocols-Ethernet",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"entries",
+		"requests",
+		"routes"
+	],
+	"name" : "ARP",
+	"type" : "normal"
+}

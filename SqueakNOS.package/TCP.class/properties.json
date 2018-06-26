@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "Conduit",
+	"category" : "SqueakNOS-Net-Protocols-TCP",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "TCP",
+	"type" : "normal"
+}
