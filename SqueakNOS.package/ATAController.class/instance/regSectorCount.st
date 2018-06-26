@@ -1,3 +1,3 @@
 registers
-sectorCount
+regSectorCount
 	^ self byteAt: 2

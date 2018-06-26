@@ -1,9 +1,8 @@
 services
-issueReadFrom: firstSector count: sectorsCount device: deviceNumber timeout: timeout
-	^self waitUntilNotBusyOr: timeout;
-		 sectorCount: sectorsCount;
-		 selectSector: firstSector ofDrive: deviceNumber;
-		 waitUntilReadyOr: timeout;
-		 cmdReadSectorsWithRetry;
-		 readAllAvailable: sectorsCount.
-	
+issueReadFrom: firstSector count: sectorCount device: deviceNumber timeout: timeout
+	^ self
+		waitUntilNotBusyOr: timeout;
+		selectSector: firstSector ofDrive: deviceNumber;
+		regSectorCount: sectorCount;
+		waitUntilReadyOr: timeout;
+		doReadSectorsDMA: sectorCount

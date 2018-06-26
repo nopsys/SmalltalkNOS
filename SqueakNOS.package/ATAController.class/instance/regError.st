@@ -1,3 +1,3 @@
 registers
-error
+regError
 	^ self byteAt: 1

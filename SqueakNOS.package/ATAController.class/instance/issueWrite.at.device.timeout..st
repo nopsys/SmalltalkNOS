@@ -4,7 +4,7 @@ issueWrite: aByteArray at: firstSector device: deviceNumber timeout: aTimeout
 	'."
 	self waitUntilNotBusyOr: aTimeout;
 		selectSector: firstSector ofDrive: deviceNumber;
-		sectorCount: aByteArray size // 512;
+		regSectorCount: aByteArray size // 512;
 		waitUntilReadyOr: aTimeout;
 		cmdWriteSectorsWithRetry;
 		writeAllAvailable: aByteArray.

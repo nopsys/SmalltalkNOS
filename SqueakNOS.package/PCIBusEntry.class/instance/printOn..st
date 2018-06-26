@@ -10,4 +10,6 @@ printOn: strm
 		nextPut: $.;
 		nextPutAll: function printString;
 		space;
-		nextPutAll: self stringForVendorAndDevice.
+		nextPutAll: self stringForVendorAndDevice;
+		cr;
+		nextPutAll: self formatedConfigurationRegisters

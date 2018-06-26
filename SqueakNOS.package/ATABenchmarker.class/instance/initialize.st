@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 initialize
 	results := Dictionary new.
-	controller := ATAController secondary.
+	controller := ATAController primary

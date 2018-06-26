@@ -16,6 +16,7 @@
 		"info",
 		"processor",
 		"memoryManager",
+		"ramdisk",
 		"primaryFilesystem"
 	],
 	"name" : "Computer",

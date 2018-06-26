@@ -1,13 +1,15 @@
 private
 readAllAvailable: sectorCount
-	| answer nextPosition |
-	answer := ByteArray new: sectorCount * self sectorSize.
+	| each answer nextPosition |
+	each := self sectorSize.
+	answer := ByteArray new: sectorCount * each.
 	nextPosition := 1.
-	[ self moreDataIsAvailable ] whileTrue: [
-		answer replaceFrom: nextPosition to: nextPosition + self sectorSize - 1 with: self readSector startingAt:1.
-		nextPosition := nextPosition + self sectorSize.
-	].
-	(answer = '') ifTrue: [
-		 Transcript show: 'Status: ', self atStatusReg asString, Character cr asString.
-		 self error: 'No grabe nada' ].
-	^answer.
+	sectorCount timesRepeat: [ 
+			self waitUntilDeviceIsReadyForTransfer.
+			answer
+				replaceFrom: nextPosition
+				to: nextPosition + self sectorSize - 1
+				with: self readSector
+				startingAt: 1.
+			nextPosition := nextPosition + each ].
+	^ answer

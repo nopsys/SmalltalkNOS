@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "gera 7/2/2006 14:06",
+	"commentStamp" : "JavierPimas 6/20/2018 17:40",
 	"super" : "HardwareDevice",
 	"category" : "SqueakNOS-Devices-Base",
 	"classinstvars" : [ ],

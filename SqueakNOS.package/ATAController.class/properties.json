@@ -8,7 +8,17 @@
 		"primary",
 		"secondary"
 	],
-	"instvars" : [ ],
+	"instvars" : [
+		"control",
+		"busMaster",
+		"buffer",
+		"done",
+		"busy",
+		"transferReady",
+		"transferReadyBool",
+		"interruptController",
+		"bytes"
+	],
 	"name" : "ATAController",
 	"type" : "normal"
 }

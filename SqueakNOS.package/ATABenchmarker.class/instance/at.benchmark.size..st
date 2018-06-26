@@ -1,11 +1,12 @@
 services
-at: aTitle benchmark: aBlock size: aSize
-	| runTime bytesPerSecond stream |
-	runTime := Time millisecondsToRun: aBlock.
-	bytesPerSecond := aSize / runTime * 1000.
+at: benchTitle benchmark: aBlock size: size
+	| milliseconds bytesPerSecond stream |
+	milliseconds := Time millisecondsToRun: aBlock.
+	bytesPerSecond := size / milliseconds * 1000.
 	stream := WriteStream on: ''.
-	stream nextPutAll: runTime asString; nextPutAll: ' ms. Throughput: '.
-	(bytesPerSecond / (1024*1024)) asFloat absPrintOn: stream base: 10 digitCount: 5.
+	stream
+		nextPutAll: milliseconds asString;
+		nextPutAll: ' ms. Throughput: '.
+	(bytesPerSecond / (1024 * 1024)) asFloat absPrintOn: stream base: 10 digitCount: 5.
 	stream nextPutAll: ' MB/s'.
-	results at: aTitle put: stream contents.
-	
+	results at: benchTitle put: stream contents

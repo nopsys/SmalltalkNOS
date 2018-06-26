@@ -1,4 +1,11 @@
-I represent an entry (a specific device) in the PCI bus. Some examples:
+I represent a device 'function' (DF) 'configuration space' (CS) in the PCI bus. (*guessing*) Simple devices have only one function.
+In PCI, each DF is assigned an ID, which is used to access its associated CS, through IO ports 0xCF8 and 0xCFC. 
+
+The CS provides 64 bytes of fixed fields that give info about the device: device ID, vendor ID, Status, etc. One very important info the CS give are the 6 Base Address Registers (BARs). The BIOS or OS assigns mmaped addresses or IO ports to the DF, and saves those addresses in the BAR fields of the CS. To obtain those addresses, the driver just reads the BAR fields. Those fields are encoded: if it is an io port, the first bit is 1, and bits 3 to 32 are the base io address (4 byte aligned). Else, if first bit is 0,  it is an mmaped address, and bits 5 to 32 tell the base address (16-byte aligned).
+
+The ID of a DF is split in 8 bit bus number, 5 bit device number and 3 bit function number.
+
+Some examples:
 
 "To scan the bus"		PCIBusEntry allValid
 "To get memory ranges"	PCIBusEntry allValid collect: [:e | e allMemoryRanges]
