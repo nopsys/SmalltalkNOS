@@ -8,8 +8,7 @@ initialize
 	self class tweakSqueakForSqueakNOS.
 	PIC8259 installOn: self.
 	PCIBusEntry allValid
-		do: [ :bus | 
-			"Transcript
+		do: [ :bus | "Transcript
 				show: bus;
 				cr;
 				cr" ].
@@ -29,5 +28,7 @@ initialize
 	USBUHCIController installOn: self.
 	SDDevice installOn: self."
 	ATAController primary installOn: self.
+	ramdisk := ByteArray new: 128 * 1024 * 1024.
+	ATAController primary at: 1 count: ramdisk size / 512 of: 0 into: ramdisk. 
 	Display forceToScreen
 	"(self confirm: 'Do you want to load sources from disk?') ifTrue: [self openSourceFiles]"

@@ -14,4 +14,4 @@ doReadSectorsDMA: sectorCount
 		stopTransfer;
 		resetDescriptorTable.
 	self reenableIRQsAndCheckForErrors.
-	^ ByteArraySegment on: buffer from: 1 + offset to: size + offset
+	^buffer
