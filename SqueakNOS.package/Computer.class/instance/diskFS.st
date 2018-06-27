@@ -6,4 +6,4 @@ diskFS
 		on: Error
 		do: [ device := ATAController primary slave.
 			device reset ].
-	^ FAT32FileSystem on: (ByteArrayOnBlockDevice on: device)
+	^ (FAT32FileSystem on: device primaryPartition) open

@@ -1,5 +1,3 @@
 filesystem
 primaryFilesystem
-	^primaryFilesystem ifNil: [ 
-		primaryFilesystem := self class primaryFilesystem
-	 ]
+	^ primaryFilesystem ifNil: [ primaryFilesystem := self diskFS ]

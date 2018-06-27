@@ -6,12 +6,14 @@ openSourceFiles
 				Smalltalk isPharo ifTrue: [ Author fullName: '' ] ifFalse: [ Utilities setAuthorInitials: '' ] ]."
 	filesystem := self primaryFilesystem.
 	sources := filesystem pureFAT32FilenameFor: Smalltalk sourcesName.
+	sources := sources copyFrom: 2 to: sources size.
 	changes := filesystem pureFAT32FilenameFor: Smalltalk changesName.
+	changes := changes copyFrom: 2 to: changes size.
 	directory := filesystem root.
 	(directory fileExists: sources)
-		ifTrue: [source := (directory readOnlyFileNamed: sources) readStream].
+		ifTrue: [ source := (directory readOnlyFileNamed: sources) readStream ].
 	(directory fileExists: changes)
-		ifTrue: [change := (directory readOnlyFileNamed: changes) readWriteStream].
-	SourceFiles  
+		ifTrue: [ change := (directory readOnlyFileNamed: changes) readWriteStream ].
+	SourceFiles
 		changesFileStream: change;
-		sourcesFileStream: source.
+		sourcesFileStream: source
