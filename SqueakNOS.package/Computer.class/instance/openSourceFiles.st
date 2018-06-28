@@ -8,7 +8,6 @@ openSourceFiles
 	sources := filesystem pureFAT32FilenameFor: Smalltalk sourcesName.
 	sources := sources copyFrom: 2 to: sources size.
 	changes := filesystem pureFAT32FilenameFor: Smalltalk changesName.
-	changes := changes copyFrom: 2 to: changes size.
 	directory := filesystem root.
 	(directory fileExists: sources)
 		ifTrue: [ source := (directory readOnlyFileNamed: sources) readStream ].

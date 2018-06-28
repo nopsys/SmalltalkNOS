@@ -34,6 +34,7 @@ initialize
 		count: ramdisk size / 512
 		of: 0
 		into: ramdisk.
-
+	primaryFilesystem := self diskFS.
+	self openSourceFiles.
 	Display forceToScreen
 	"(self confirm: 'Do you want to load sources from disk?') ifTrue: [self openSourceFiles]"
