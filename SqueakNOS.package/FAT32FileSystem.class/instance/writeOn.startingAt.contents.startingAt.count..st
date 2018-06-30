@@ -14,4 +14,4 @@ writeOn: aFile startingAt: aFileOffset contents: bytes startingAt: bytesStart co
 	
 	^self writeClusters: (clusters copyFrom: firstIndex to: lastIndex)
 		   startingAt: (helper positionInBlockOf: aFileOffset + 1)
-	  	   with: bytes startingAt: bytesStart count: count.	
+	  	   with: bytes asByteArray startingAt: bytesStart count: count.	

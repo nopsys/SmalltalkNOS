@@ -4,6 +4,4 @@ openForWrite: writeMode
 	| fileHandle |
 	fileHandle := self basicOpenForWrite: writeMode.
 	fileHandle ifNil: [ FileException signal: 'cannot open file: ', name ].
-	^ (BinaryFileStream handle: fileHandle file: self forWrite: writeMode)
-		register;
-		yourself
+	^ self readWriteStream 
