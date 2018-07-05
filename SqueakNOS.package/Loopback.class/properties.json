@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "InternalNetworkDevice",
+	"category" : "SqueakNOS-Net-Devices",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "Loopback",
+	"type" : "normal"
+}

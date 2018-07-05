@@ -6,7 +6,7 @@ newHostWithEthernet: anEthernetAddress ip: anInternetAddress
 	ip | ICMP new.
 	ip | TCP new.
 	ip | UDP new.
-	ethernet _ Ethernet new.
+	ethernet := Ethernet new.
 	ethernet address: anEthernetAddress.
 	ethernet | ip.
 	ethernet arp protocolAddress: ip address.
