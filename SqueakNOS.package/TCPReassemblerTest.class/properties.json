@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "TestCase",
+	"category" : "SqueakNOS-Net-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"reassembler",
+		"stream",
+		"packets"
+	],
+	"name" : "TCPReassemblerTest",
+	"type" : "normal"
+}

@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "Conduit",
+	"category" : "SqueakNOS-Net-Protocols-UDP",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"localPort",
+		"remotePort"
+	],
+	"name" : "UDPChannel",
+	"type" : "normal"
+}

@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "TestCase",
+	"category" : "SqueakNOS-Net-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"packet",
+		"fragments"
+	],
+	"name" : "IPFragmentsTest",
+	"type" : "normal"
+}

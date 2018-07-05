@@ -15,6 +15,7 @@ SystemOrganization addCategory: 'SqueakNOS-MemoryManager-Paging'!
 SystemOrganization addCategory: 'SqueakNOS-Net-Conduits'!
 SystemOrganization addCategory: 'SqueakNOS-Net-Exceptions'!
 SystemOrganization addCategory: 'SqueakNOS-Net-Interfaces'!
+SystemOrganization addCategory: 'SqueakNOS-Net-MissingClass'!
 SystemOrganization addCategory: 'SqueakNOS-Net-Options-IP'!
 SystemOrganization addCategory: 'SqueakNOS-Net-Options-TCP'!
 SystemOrganization addCategory: 'SqueakNOS-Net-Packets'!
@@ -23,7 +24,9 @@ SystemOrganization addCategory: 'SqueakNOS-Net-Protocols-IP'!
 SystemOrganization addCategory: 'SqueakNOS-Net-Protocols-TCP'!
 SystemOrganization addCategory: 'SqueakNOS-Net-Protocols-TCP-States'!
 SystemOrganization addCategory: 'SqueakNOS-Net-Protocols-TCP-States-Output'!
+SystemOrganization addCategory: 'SqueakNOS-Net-Protocols-UDP'!
 SystemOrganization addCategory: 'SqueakNOS-Net-Support'!
+SystemOrganization addCategory: 'SqueakNOS-Net-Tests'!
 SystemOrganization addCategory: 'SqueakNOS-OFW-OLPC'!
 SystemOrganization addCategory: 'SqueakNOS-PharoCompatibility'!
 SystemOrganization addCategory: 'SqueakNOS-Storage'!

@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "Conduit",
+	"category" : "SqueakNOS-Net-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"incomingAction",
+		"outgoingAction"
+	],
+	"name" : "PluggableConduit",
+	"type" : "normal"
+}
