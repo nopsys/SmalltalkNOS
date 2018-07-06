@@ -1,3 +1,3 @@
 instance creation
 fromInteger: anInteger
-	^ self bytes: ((ByteArray new: 6) copyFrom: anInteger)
+	^ self bytes: (anInteger asByteArrayOfSize: 6)
