@@ -1,5 +1,4 @@
 *SqueakNOS-PharoCompatibility
 stringAt: index put: aString
-	| answer |
-	answer := (0 to: aString size-1) do: [ :i |
-		self byteAt: index+i put: (aString at: (i-1)) value].
+	1 to: aString size do: [ :i |
+		self byteAt: index+i-1 put: (aString at: i asciiValue)].
