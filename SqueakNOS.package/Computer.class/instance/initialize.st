@@ -22,9 +22,10 @@ initialize
 	CMOS installOn: self.
 	"RemoteObjectChannel installOn: self."
 	"LancePCIDevice installOn: self."
+	self defaultNetworkInterface: nil.
 	Realtek8139PCIDevice installOn: self.
-	self defaultNetworkInterface ifNotNil: [
-		self networkingStack: (EthernetInterface on: self defaultNetworkInterface)].
+	self defaultNetworkInterface
+		ifNotNil: [ self networkingStack: (EthernetInterface on: self defaultNetworkInterface) ].
 	"
 	USBUHCIController installOn: self.
 	SDDevice installOn: self."
