@@ -2,9 +2,7 @@ services
 doReadSectorsDMA: sectorCount
 	| size offset |
 	size := sectorCount * self sectorSize.
-	self
-		cmdReadSectorsDMAWithRetry;
-		waitUntilDeviceIsReadyForTransfer.
+	self cmdReadSectorsDMAWithRetry.
 	offset := busMaster offset.
 	busMaster
 		setupTransferOf: size with: buffer;
