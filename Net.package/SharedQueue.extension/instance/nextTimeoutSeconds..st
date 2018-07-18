@@ -1,5 +1,3 @@
 *Net
 nextTimeoutSeconds: anInteger
-	readSynch waitTimeoutSeconds: anInteger.
-	self isEmpty ifTrue: [^ nil].
-	^ self privateNext
+	^ self nextTimeoutMSecs: anInteger * 1000
