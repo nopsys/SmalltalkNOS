@@ -1,3 +1,3 @@
 accessing
 fieldList
-	^ object class allFieldsNames
+	^ self object class allFieldsNames
