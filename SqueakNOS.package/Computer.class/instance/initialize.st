@@ -29,7 +29,7 @@ initialize
 	"
 	USBUHCIController installOn: self.
 	SDDevice installOn: self."
-	ATAController primary installOn: self.
+	"ATAController primary installOn: self.
 	ramdisk := ByteArray new: 128 * 1024 * 1024.
 	ATAController primary
 		at: 1
@@ -37,6 +37,6 @@ initialize
 		of: 0
 		into: ramdisk.
 	primaryFilesystem := self ramdiskFS.
-	self openSourceFiles.
+	self openSourceFiles."
 	Display forceToScreen
 	"(self confirm: 'Do you want to load sources from disk?') ifTrue: [self openSourceFiles]"
