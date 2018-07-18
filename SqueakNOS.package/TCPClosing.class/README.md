@@ -1,1 +1,0 @@
-CLOSING - represents waiting for a connection termination request acknowledgment from the remote TCP.

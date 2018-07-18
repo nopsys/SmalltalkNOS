@@ -1,3 +1,0 @@
-protocol
-sendSyn
-	socket sendSyn

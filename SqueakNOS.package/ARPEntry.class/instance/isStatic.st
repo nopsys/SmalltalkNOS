@@ -1,3 +1,0 @@
-testing
-isStatic
-	^ timeout isNil

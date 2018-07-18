@@ -1,3 +1,0 @@
-timer
-rescheduleRetransmitTimer
-	self scheduleRetransmitAfter: 1000

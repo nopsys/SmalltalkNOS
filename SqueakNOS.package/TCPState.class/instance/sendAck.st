@@ -1,3 +1,0 @@
-protocol
-sendAck
-	socket sendAck

@@ -1,3 +1,0 @@
-accessing
-nextPacket
-	^ self subclassResponsibility

@@ -1,3 +1,0 @@
-helpers
-computeChecksum
-	^ 0

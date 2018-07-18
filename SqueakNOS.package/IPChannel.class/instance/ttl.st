@@ -1,3 +1,0 @@
-accessing
-ttl
-	^ ttl

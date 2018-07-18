@@ -1,3 +1,0 @@
-accessing
-typeNames
-	^ #(EchoReply nil nil DestinationUnreachable SourceQuench Redirect nil nil EchoRequest RouterAdvertisement RouterSolicitation TimeExceeded ParameterProblem TimestampRequest TimestampReply InfoRequest InfoReply AddressMaskRequest AddressMaskReply)

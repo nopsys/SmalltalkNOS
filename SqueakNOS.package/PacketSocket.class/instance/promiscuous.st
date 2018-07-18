@@ -1,3 +1,0 @@
-accessing
-promiscuous
-	^ promiscuous

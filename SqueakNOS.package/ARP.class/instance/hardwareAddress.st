@@ -1,3 +1,0 @@
-accessing
-hardwareAddress
-	^ left address

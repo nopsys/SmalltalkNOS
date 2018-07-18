@@ -1,3 +1,0 @@
-configuration
-ttl
-	^ 64

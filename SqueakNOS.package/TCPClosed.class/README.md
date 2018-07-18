@@ -1,1 +1,0 @@
-CLOSED - represents no connection state at all.
