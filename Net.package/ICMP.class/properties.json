@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "Conduit",
+	"category" : "Net-Protocols-IP",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ICMP",
+	"type" : "normal"
+}

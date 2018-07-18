@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "ARPPacket",
+	"category" : "Net-Packets",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "RARPPacket",
+	"type" : "normal"
+}

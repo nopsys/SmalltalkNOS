@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Net-Protocols-Ethernet",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"arp",
+		"protocol",
+		"retryTime",
+		"pendingPackets",
+		"tries"
+	],
+	"name" : "ARPRequest",
+	"type" : "normal"
+}

@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Net-Protocols-TCP",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"sequence",
+		"segments",
+		"stream",
+		"finSequence"
+	],
+	"name" : "TCPReassembler",
+	"type" : "normal"
+}

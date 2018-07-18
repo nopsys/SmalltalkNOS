@@ -1,0 +1,1 @@
+LISTEN - represents waiting for a connection request from any remote TCP and port.

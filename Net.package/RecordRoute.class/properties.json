@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "IPOption",
+	"category" : "Net-Options-IP",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "RecordRoute",
+	"type" : "normal"
+}

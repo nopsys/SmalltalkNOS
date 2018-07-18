@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "ArrayedCollection",
+	"category" : "Net-Support",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"address",
+		"mask"
+	],
+	"name" : "NetBlock",
+	"type" : "normal"
+}

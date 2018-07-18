@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "Conduit",
+	"category" : "Net-Protocols-TCP",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"localPort",
+		"remotePort",
+		"state",
+		"reassembler"
+	],
+	"name" : "TCPChannel",
+	"type" : "normal"
+}

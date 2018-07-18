@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "Magnitude",
+	"category" : "Net-Support",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"value"
+	],
+	"name" : "TCPSequenceNumber",
+	"type" : "normal"
+}

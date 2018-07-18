@@ -1,0 +1,3 @@
+testing
+isStatic
+	^ timeout isNil

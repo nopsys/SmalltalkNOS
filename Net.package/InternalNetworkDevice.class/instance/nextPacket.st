@@ -1,0 +1,3 @@
+accessing
+nextPacket
+	^ self subclassResponsibility

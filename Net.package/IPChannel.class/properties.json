@@ -1,0 +1,19 @@
+{
+	"commentStamp" : "",
+	"super" : "Conduit",
+	"category" : "Net-Protocols-IP",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"localAddress",
+		"remoteAddress",
+		"reassembler",
+		"ttl",
+		"tos",
+		"df",
+		"options"
+	],
+	"name" : "IPChannel",
+	"type" : "normal"
+}

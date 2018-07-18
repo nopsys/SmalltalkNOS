@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "ArrayedCollection",
+	"category" : "Net-Support",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"bytes"
+	],
+	"name" : "NetAddress",
+	"type" : "normal"
+}

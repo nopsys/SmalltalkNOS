@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "len 5/27/2002 01:07",
+	"super" : "InternalNetworkDevice",
+	"category" : "Net-Devices",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"END",
+		"ESC",
+		"ESCEND",
+		"ESCESC"
+	],
+	"instvars" : [
+		"stream"
+	],
+	"name" : "SLIP",
+	"type" : "normal"
+}

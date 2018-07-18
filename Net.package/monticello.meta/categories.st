@@ -1,0 +1,16 @@
+SystemOrganization addCategory: #Net!
+SystemOrganization addCategory: 'Net-Conduits'!
+SystemOrganization addCategory: 'Net-Devices'!
+SystemOrganization addCategory: 'Net-Exceptions'!
+SystemOrganization addCategory: 'Net-Interfaces'!
+SystemOrganization addCategory: 'Net-Options-IP'!
+SystemOrganization addCategory: 'Net-Options-TCP'!
+SystemOrganization addCategory: 'Net-Packets'!
+SystemOrganization addCategory: 'Net-Protocols-Ethernet'!
+SystemOrganization addCategory: 'Net-Protocols-IP'!
+SystemOrganization addCategory: 'Net-Protocols-TCP'!
+SystemOrganization addCategory: 'Net-Protocols-TCP-States'!
+SystemOrganization addCategory: 'Net-Protocols-TCP-States-Output'!
+SystemOrganization addCategory: 'Net-Protocols-UDP'!
+SystemOrganization addCategory: 'Net-Support'!
+SystemOrganization addCategory: 'Net-Tests'!

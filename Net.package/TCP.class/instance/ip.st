@@ -1,0 +1,3 @@
+accessing
+ip
+	^ self left

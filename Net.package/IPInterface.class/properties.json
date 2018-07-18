@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "NetInterface",
+	"category" : "Net-Interfaces",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"ip"
+	],
+	"name" : "IPInterface",
+	"type" : "normal"
+}

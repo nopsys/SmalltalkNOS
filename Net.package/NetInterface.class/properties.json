@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "Conduit",
+	"category" : "Net-Interfaces",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"inputQ",
+		"process",
+		"device"
+	],
+	"name" : "NetInterface",
+	"type" : "normal"
+}

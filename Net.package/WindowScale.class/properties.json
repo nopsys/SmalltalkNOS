@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "TCPOption",
+	"category" : "Net-Options-TCP",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "WindowScale",
+	"type" : "normal"
+}

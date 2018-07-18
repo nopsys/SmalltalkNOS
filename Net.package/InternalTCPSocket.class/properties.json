@@ -1,0 +1,25 @@
+{
+	"commentStamp" : "",
+	"super" : "InternalSocket",
+	"category" : "Net-Protocols-TCP",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"localPort",
+		"remotePort",
+		"remoteAddress",
+		"mss",
+		"windowSize",
+		"reassembler",
+		"state",
+		"sendingWindowSize",
+		"sequence",
+		"sender",
+		"lastAcknowledged",
+		"finSequence",
+		"delayedAck"
+	],
+	"name" : "InternalTCPSocket",
+	"type" : "normal"
+}

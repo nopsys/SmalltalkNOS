@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "InternalRawSocket",
+	"category" : "Net-Protocols-UDP",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"localPort",
+		"remotePort",
+		"remoteAddress"
+	],
+	"name" : "InternalUDPSocket",
+	"type" : "normal"
+}

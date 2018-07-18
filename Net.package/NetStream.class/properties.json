@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "SocketStream",
+	"category" : "Net-Support",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "NetStream",
+	"type" : "normal"
+}

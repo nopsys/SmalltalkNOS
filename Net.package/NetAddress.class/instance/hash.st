@@ -1,0 +1,3 @@
+comparing
+hash
+	^ bytes hash

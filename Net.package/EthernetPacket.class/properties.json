@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "Packet",
+	"category" : "Net-Packets",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "EthernetPacket",
+	"type" : "normal"
+}

@@ -1,0 +1,1 @@
+SYN-SENT - represents waiting for a matching connection request after having sent a connection request.
