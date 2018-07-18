@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "",
 	"super" : "Object",
-	"category" : "SqueakNOS-Net-MissingClass",
+	"category" : "Net-MissingClass",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "Ping",
+	"name" : "TraceRoute",
 	"type" : "normal"
 }

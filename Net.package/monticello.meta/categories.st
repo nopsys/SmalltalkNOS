@@ -3,6 +3,7 @@ SystemOrganization addCategory: 'Net-Conduits'!
 SystemOrganization addCategory: 'Net-Devices'!
 SystemOrganization addCategory: 'Net-Exceptions'!
 SystemOrganization addCategory: 'Net-Interfaces'!
+SystemOrganization addCategory: 'Net-MissingClass'!
 SystemOrganization addCategory: 'Net-Options-IP'!
 SystemOrganization addCategory: 'Net-Options-TCP'!
 SystemOrganization addCategory: 'Net-Packets'!
