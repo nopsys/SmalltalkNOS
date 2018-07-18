@@ -1,6 +1,6 @@
 initialization
 initialize
-	END := Character value: 8r300.
-	ESC := Character value: 8r333.
-	ESCEND := Character value: 8r334.
-	ESCESC := Character value: 8r335.
+	END := 8r300.
+	ESC := 8r333.
+	ESCEND := 8r334.
+	ESCESC := 8r335.
