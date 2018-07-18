@@ -1,7 +1,6 @@
 RFCs
-RFC1055: ignore nonstandardForTransmissionOfIpDatagramsOverSerial: ignoreToo
+RFC1055: ignore nonstandardForTransmissionOfIpDatagramsOverSerialLines: ignoreToo
 "
-lines: SLIP
 
 Author(s): J.L. Romkey
 Date: Jun-01-1988
