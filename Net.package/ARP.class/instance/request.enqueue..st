@@ -1,7 +1,7 @@
 accessing
 request: aNetAddress enqueue: aPacket
 	| request |
-	request :=
+	request _
 		requests detect: [ :one | one protocol = aNetAddress]
 		ifNone: [requests add: (ARPRequest new arp: self; protocol: aNetAddress; retryTime: timer time)].
 	request enqueue: aPacket.
