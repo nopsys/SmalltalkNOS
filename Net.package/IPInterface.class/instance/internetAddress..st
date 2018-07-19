@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 internetAddress: anInternetAddress
 	ip address: anInternetAddress

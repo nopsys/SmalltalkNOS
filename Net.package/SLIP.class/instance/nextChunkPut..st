@@ -1,9 +1,9 @@
 slip protocol
-nextChunkPut: aString
+nextChunkPut: aByteArray
 	| next strm |
-	strm := ReadStream on: aString.
+	strm := ReadStream on: aByteArray.
 	[strm atEnd] whileFalse: [
-		next := strm next asCharacter.
+		next := strm next.
 		next = END ifTrue: [
 			stream nextPut: ESC.
 			next := ESCEND].

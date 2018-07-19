@@ -1,3 +1,3 @@
 printing
 printOn: aStream
-	aStream nextPutAll: 'ICMP ', self typeName, ' ', self codeName
+	aStream nextPutAll: 'ICMP ', self typeName, ' ', self codeName, ' ', self sequence hex

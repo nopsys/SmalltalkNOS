@@ -1,7 +1,7 @@
-as yet unclassified
+initialization
 initialize
 	super initialize.
 	ip := IP new.
 	ip | TCP new.
 	ip | UDP new.
-	self | ip
+	self | PluggableConduit transcripter | ip
