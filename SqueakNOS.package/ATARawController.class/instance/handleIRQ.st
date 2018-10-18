@@ -1,3 +1,0 @@
-accessing
-handleIRQ
-	interrupted := true

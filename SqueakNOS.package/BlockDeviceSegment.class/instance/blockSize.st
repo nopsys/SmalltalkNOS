@@ -1,3 +1,0 @@
-initialization
-blockSize
-	^ device blockSize
