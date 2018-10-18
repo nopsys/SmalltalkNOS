@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "HardwareDevice",
+	"category" : "STNos-Devices-Base",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"computer",
+		"slave",
+		"dispatchers",
+		"savedMask"
+	],
+	"name" : "PIC8259",
+	"type" : "normal"
+}

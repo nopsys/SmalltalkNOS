@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "HardwareDevice",
+	"category" : "STNos-Devices-Serial",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"frameList"
+	],
+	"name" : "USBUHCIController",
+	"type" : "normal"
+}

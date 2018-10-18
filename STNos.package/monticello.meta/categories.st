@@ -1,0 +1,11 @@
+SystemOrganization addCategory: #STNos!
+SystemOrganization addCategory: 'STNos-FileSupport'!
+SystemOrganization addCategory: 'STNos-Filesystems'!
+SystemOrganization addCategory: 'STNos-Filesystems-FAT32'!
+SystemOrganization addCategory: 'STNos-Kernel'!
+SystemOrganization addCategory: 'STNos-Memory-Manager'!
+SystemOrganization addCategory: 'STNos-MemoryManager-Paging'!
+SystemOrganization addCategory: 'STNos-OFW-OLPC'!
+SystemOrganization addCategory: 'STNos-PharoCompatibility'!
+SystemOrganization addCategory: 'STNos-Storage'!
+SystemOrganization addCategory: 'STNos-Storage-Tests'!

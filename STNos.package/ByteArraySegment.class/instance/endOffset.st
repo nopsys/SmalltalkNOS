@@ -1,0 +1,3 @@
+converting
+endOffset
+	^offset + size

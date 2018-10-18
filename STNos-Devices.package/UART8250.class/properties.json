@@ -1,0 +1,20 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "HardwareDevice",
+	"category" : "STNos-Devices-Serial",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"receivedChars",
+		"baudRate",
+		"stopBits",
+		"parity",
+		"dataBits",
+		"interruptId",
+		"lineStatus",
+		"modemStatus"
+	],
+	"name" : "UART8250",
+	"type" : "normal"
+}

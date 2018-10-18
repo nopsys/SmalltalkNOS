@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "STNos-Kernel",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"computer",
+		"savedPages"
+	],
+	"name" : "ImageSnapshotter",
+	"type" : "normal"
+}

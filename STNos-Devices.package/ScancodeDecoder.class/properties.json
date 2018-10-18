@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "STNos-Devices-Base",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"previousScanCode",
+		"actualScanCode"
+	],
+	"name" : "ScancodeDecoder",
+	"type" : "normal"
+}

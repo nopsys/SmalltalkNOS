@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "BlockDevice",
+	"category" : "STNos-Storage",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"contents",
+		"blockSize"
+	],
+	"name" : "MemoryBlockDevice",
+	"type" : "normal"
+}

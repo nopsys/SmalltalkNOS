@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "PCIDevice",
+	"category" : "STNos-Devices-Network",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "NetworkingDevice",
+	"type" : "normal"
+}

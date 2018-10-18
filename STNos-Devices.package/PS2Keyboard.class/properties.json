@@ -1,0 +1,22 @@
+{
+	"commentStamp" : "",
+	"super" : "HardwareDevice",
+	"category" : "STNos-Devices-Serial",
+	"classinstvars" : [ ],
+	"pools" : [
+		"EventSensorConstants"
+	],
+	"classvars" : [ ],
+	"instvars" : [
+		"modifiersAndButtons",
+		"mouseCoord",
+		"mouseDataCount",
+		"events",
+		"previousScanCode",
+		"configBits",
+		"decoder",
+		"keysMapping"
+	],
+	"name" : "PS2Keyboard",
+	"type" : "normal"
+}

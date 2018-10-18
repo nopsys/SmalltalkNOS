@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "Pocho 4/5/2010 18:24",
+	"super" : "Object",
+	"category" : "STNos-Storage",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"bytes"
+	],
+	"name" : "PartitionRecord",
+	"type" : "normal"
+}

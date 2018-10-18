@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "HardwareDevice",
+	"category" : "STNos-Devices-Memory",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"size",
+		"blocks"
+	],
+	"name" : "Memory",
+	"type" : "normal"
+}

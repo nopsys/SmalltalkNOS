@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "MemoryManagerStrategy",
+	"category" : "STNos-Memory-Manager",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"directory",
+		"handlers",
+		"pageHandled",
+		"interrupted",
+		"pageFaultCallback"
+	],
+	"name" : "PageManager",
+	"type" : "normal"
+}

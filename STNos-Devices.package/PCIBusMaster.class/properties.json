@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "PCIDevice",
+	"category" : "STNos-Devices-Base",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"channelOffset",
+		"table",
+		"function",
+		"next",
+		"offset"
+	],
+	"name" : "PCIBusMaster",
+	"type" : "normal"
+}

@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "ExternalStructure",
+	"category" : "STNos-ExternalStructs",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "VMBridge",
+	"type" : "normal"
+}

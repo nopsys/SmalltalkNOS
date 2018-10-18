@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "STNos-ExternalStructs",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"pointer",
+		"size"
+	],
+	"name" : "Buffer",
+	"type" : "normal"
+}

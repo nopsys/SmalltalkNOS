@@ -1,0 +1,24 @@
+{
+	"commentStamp" : "gera 7/18/2018 16:26",
+	"super" : "Object",
+	"category" : "STNos-Kernel",
+	"classinstvars" : [
+		"snapshotter"
+	],
+	"pools" : [ ],
+	"classvars" : [
+		"Current",
+		"PageFaultHandler",
+		"Saving"
+	],
+	"instvars" : [
+		"devices",
+		"info",
+		"processor",
+		"memoryManager",
+		"ramdisk",
+		"primaryFilesystem"
+	],
+	"name" : "Computer",
+	"type" : "normal"
+}

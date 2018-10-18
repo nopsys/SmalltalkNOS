@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "NOSFilesystemContent",
+	"category" : "STNos-Filesystems",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "NOSDirectory",
+	"type" : "normal"
+}

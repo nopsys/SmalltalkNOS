@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "LanceNICRingDescriptor16",
+	"category" : "STNos-Devices-Network",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "LanceNICReceiveRingDescriptor16",
+	"type" : "normal"
+}

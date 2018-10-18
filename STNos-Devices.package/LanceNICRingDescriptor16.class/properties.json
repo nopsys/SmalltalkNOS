@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "ExternalStructure",
+	"category" : "STNos-Devices-Network",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "LanceNICRingDescriptor16",
+	"type" : "normal"
+}

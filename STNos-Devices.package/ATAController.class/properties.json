@@ -1,0 +1,24 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "PCIDevice",
+	"category" : "STNos-Devices-Block",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"primary",
+		"secondary"
+	],
+	"instvars" : [
+		"control",
+		"busMaster",
+		"buffer",
+		"done",
+		"busy",
+		"transferReady",
+		"transferReadyBool",
+		"interruptController",
+		"bytes"
+	],
+	"name" : "ATAController",
+	"type" : "normal"
+}

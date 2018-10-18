@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "ExternalStructure",
+	"category" : "STNos-ExternalStructs",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"size"
+	],
+	"name" : "MultiBootMemoryMap",
+	"type" : "normal"
+}

@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "PageIndex",
+	"category" : "STNos-MemoryManager-Paging",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "PageTable",
+	"type" : "normal"
+}

@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "Pocho 3/27/2010 14:31",
+	"super" : "BlockDevice",
+	"category" : "STNos-Devices-Block",
+	"classinstvars" : [
+		"loadedDevices"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"controller",
+		"deviceNumber",
+		"cachedSector",
+		"cachedSectorNumber"
+	],
+	"name" : "ATADevice",
+	"type" : "normal"
+}

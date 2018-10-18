@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "PlatformResolver",
+	"category" : "STNos-FileSupport",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "NopsysResolver",
+	"type" : "normal"
+}

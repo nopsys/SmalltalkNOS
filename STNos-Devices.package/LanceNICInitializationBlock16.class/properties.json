@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "gera 7/6/2006 10:07",
+	"super" : "ExternalStructure",
+	"category" : "STNos-Devices-Network",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "LanceNICInitializationBlock16",
+	"type" : "normal"
+}

@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "gera 7/20/2006 18:48",
+	"super" : "NetworkingDevice",
+	"category" : "STNos-Devices-Network",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"nextTxIndex"
+	],
+	"name" : "Realtek8139PCIDevice",
+	"type" : "normal"
+}

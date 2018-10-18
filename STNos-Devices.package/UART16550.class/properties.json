@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "UART8250",
+	"category" : "STNos-Devices-Serial",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"fifoStatus"
+	],
+	"name" : "UART16550",
+	"type" : "normal"
+}

@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "gera 7/22/2006 13:51",
+	"super" : "Object",
+	"category" : "STNos-Devices-Base",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"resource"
+	],
+	"name" : "HardwareDevice",
+	"type" : "normal"
+}
