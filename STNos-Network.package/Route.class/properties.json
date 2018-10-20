@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "STNos-Network-Ethernet",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"destination",
+		"gateway",
+		"interface"
+	],
+	"name" : "Route",
+	"type" : "normal"
+}

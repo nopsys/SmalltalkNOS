@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "Conduit",
+	"category" : "STNos-Network-UDP",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "UDP",
+	"type" : "normal"
+}

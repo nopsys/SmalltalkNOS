@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "TCPOption",
+	"category" : "STNos-Network-TCP",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SACK",
+	"type" : "normal"
+}

@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "IPOption",
+	"category" : "STNos-Network-IP",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "IPTimestamp",
+	"type" : "normal"
+}

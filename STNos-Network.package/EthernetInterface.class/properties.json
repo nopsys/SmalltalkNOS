@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "NetInterface",
+	"category" : "STNos-Network-Interfaces",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"ethernet",
+		"ip"
+	],
+	"name" : "EthernetInterface",
+	"type" : "normal"
+}

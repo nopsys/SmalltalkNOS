@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "InternalNetworkDevice",
+	"category" : "STNos-Network-Devices",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"stream",
+		"packetClass"
+	],
+	"name" : "PacketCapturerFile",
+	"type" : "normal"
+}

@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "EyeInspector",
+	"category" : "STNos-Tests-Network",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "PacketInspector",
+	"type" : "normal"
+}

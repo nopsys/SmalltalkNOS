@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "gera 7/19/2018 17:06",
+	"super" : "InternalNetworkDevice",
+	"category" : "STNos-Network-Devices",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"END",
+		"ESC",
+		"ESCEND",
+		"ESCESC"
+	],
+	"instvars" : [
+		"stream"
+	],
+	"name" : "SLIP",
+	"type" : "normal"
+}

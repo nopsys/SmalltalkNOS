@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "STNos-Network-Ethernet",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"routes",
+		"default"
+	],
+	"name" : "RoutingTable",
+	"type" : "normal"
+}

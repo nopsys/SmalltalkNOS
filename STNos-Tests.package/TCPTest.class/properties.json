@@ -1,0 +1,19 @@
+{
+	"commentStamp" : "",
+	"super" : "TestCase",
+	"category" : "STNos-Tests-Network",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"loopback",
+		"ip1",
+		"ip2",
+		"socket1",
+		"socket2",
+		"stream1",
+		"stream2"
+	],
+	"name" : "TCPTest",
+	"type" : "normal"
+}

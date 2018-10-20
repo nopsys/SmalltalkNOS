@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "TestCase",
+	"category" : "STNos-Tests-Network",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"reassembler",
+		"stream",
+		"packets"
+	],
+	"name" : "TCPReassemblerTest",
+	"type" : "normal"
+}

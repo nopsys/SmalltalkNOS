@@ -1,0 +1,13 @@
+SystemOrganization addCategory: #'STNos-Network'!
+SystemOrganization addCategory: 'STNos-Network-Conduits'!
+SystemOrganization addCategory: 'STNos-Network-Devices'!
+SystemOrganization addCategory: 'STNos-Network-Ethernet'!
+SystemOrganization addCategory: 'STNos-Network-Exceptions'!
+SystemOrganization addCategory: 'STNos-Network-IP'!
+SystemOrganization addCategory: 'STNos-Network-Interfaces'!
+SystemOrganization addCategory: 'STNos-Network-MissingClass'!
+SystemOrganization addCategory: 'STNos-Network-Packets'!
+SystemOrganization addCategory: 'STNos-Network-Support'!
+SystemOrganization addCategory: 'STNos-Network-TCP'!
+SystemOrganization addCategory: 'STNos-Network-TCP-States'!
+SystemOrganization addCategory: 'STNos-Network-UDP'!

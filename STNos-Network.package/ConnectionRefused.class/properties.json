@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "Error",
+	"category" : "STNos-Network-Exceptions",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"host",
+		"port"
+	],
+	"name" : "ConnectionRefused",
+	"type" : "normal"
+}

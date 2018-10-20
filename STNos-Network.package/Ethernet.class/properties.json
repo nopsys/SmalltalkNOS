@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "Conduit",
+	"category" : "STNos-Network-Ethernet",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"address",
+		"arp"
+	],
+	"name" : "Ethernet",
+	"type" : "normal"
+}

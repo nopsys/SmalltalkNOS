@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "SequenceableCollection",
+	"category" : "STNos-Network-Support",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"buffer",
+		"head",
+		"tally"
+	],
+	"name" : "CircularBuffer",
+	"type" : "normal"
+}
