@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "BlockDevice",
+	"category" : "STNos-Storage-Block",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"deviceA",
+		"deviceB"
+	],
+	"name" : "DualTestBlockDevice",
+	"type" : "normal"
+}

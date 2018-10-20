@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "ReadWriteStream",
+	"category" : "STNos-Storage-Streams",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"device"
+	],
+	"name" : "DeviceStream",
+	"type" : "normal"
+}

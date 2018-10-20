@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "ArrayedCollection",
+	"category" : "STNos-Storage-Streams",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"stream"
+	],
+	"name" : "ByteArrayOnStream",
+	"type" : "normal"
+}

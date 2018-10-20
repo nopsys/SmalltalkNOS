@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "BlockArithmetic",
+	"category" : "STNos-Deprecated?",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "BlockArithmetic0",
+	"type" : "normal"
+}

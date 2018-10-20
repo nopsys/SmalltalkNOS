@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "Pocho 7/21/2010 16:07",
+	"super" : "BlockDevice",
+	"category" : "STNos-Storage-Block",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"stream",
+		"blockSize"
+	],
+	"name" : "BlockDeviceOnStream",
+	"type" : "normal"
+}

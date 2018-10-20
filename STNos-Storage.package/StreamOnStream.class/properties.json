@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "PositionableStream",
+	"category" : "STNos-Storage-Streams",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"contentLength",
+		"offset",
+		"stream"
+	],
+	"name" : "StreamOnStream",
+	"type" : "normal"
+}

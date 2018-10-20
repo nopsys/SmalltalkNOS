@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "UnixStore",
+	"category" : "STNos-Pharo",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SqueakNOSStore",
+	"type" : "normal"
+}

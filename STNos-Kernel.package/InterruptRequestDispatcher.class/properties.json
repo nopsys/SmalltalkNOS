@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "STNos-Kernel-Interrupts",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"semaphore",
+		"process",
+		"interruptNumber",
+		"clients"
+	],
+	"name" : "InterruptRequestDispatcher",
+	"type" : "normal"
+}
