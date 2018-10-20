@@ -1,3 +1,0 @@
-control
-close
-	state close

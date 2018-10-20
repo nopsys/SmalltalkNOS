@@ -1,1 +1,0 @@
-(self onFileNamed: '../ssh-amadeus.tcpdump')

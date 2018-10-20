@@ -1,3 +1,0 @@
-protocol
-sendFin
-	socket sendFin

@@ -1,3 +1,0 @@
-control
-down
-	^ self

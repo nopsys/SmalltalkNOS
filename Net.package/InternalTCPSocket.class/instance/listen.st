@@ -1,3 +1,0 @@
-control
-listen
-	state listen

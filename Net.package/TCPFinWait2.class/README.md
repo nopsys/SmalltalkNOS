@@ -1,1 +1,0 @@
-FIN-WAIT-2 - represents waiting for a connection termination request from the remote TCP.

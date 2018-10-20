@@ -1,3 +1,0 @@
-protocol
-retransmit
-	sender retransmit

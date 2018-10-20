@@ -1,3 +1,0 @@
-testing
-isUp
-	^ process notNil

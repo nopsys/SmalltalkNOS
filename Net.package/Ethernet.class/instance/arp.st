@@ -1,3 +1,0 @@
-accessing
-arp
-	^ arp

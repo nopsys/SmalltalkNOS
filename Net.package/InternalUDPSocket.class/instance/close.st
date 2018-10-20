@@ -1,3 +1,0 @@
-control
-close
-	self detach

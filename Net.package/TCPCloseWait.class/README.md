@@ -1,1 +1,0 @@
-CLOSE-WAIT - represents waiting for a connection termination request from the local user.

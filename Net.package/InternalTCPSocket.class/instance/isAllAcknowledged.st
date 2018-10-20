@@ -1,3 +1,0 @@
-protocol
-isAllAcknowledged
-	^ lastAcknowledged = sequence
