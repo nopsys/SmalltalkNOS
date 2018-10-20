@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "Interval",
+	"category" : "STNos-Deprecated?",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "Segment",
+	"type" : "normal"
+}

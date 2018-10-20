@@ -1,3 +1,0 @@
-initialization
-release
-	busy signal

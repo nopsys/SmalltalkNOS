@@ -1,3 +1,0 @@
-converting
-endOffset
-	^offset + size

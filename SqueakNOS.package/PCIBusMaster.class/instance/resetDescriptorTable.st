@@ -1,3 +1,0 @@
-initialization
-resetDescriptorTable
-	table reset
