@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "STNos-Storage-Block-Cache",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"device",
+		"chunks",
+		"writeList"
+	],
+	"name" : "BlockCache",
+	"type" : "normal"
+}

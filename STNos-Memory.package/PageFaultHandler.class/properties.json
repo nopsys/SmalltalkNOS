@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "STNos-Memory-Common",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"manager",
+		"handlingBlock"
+	],
+	"name" : "PageFaultHandler",
+	"type" : "normal"
+}

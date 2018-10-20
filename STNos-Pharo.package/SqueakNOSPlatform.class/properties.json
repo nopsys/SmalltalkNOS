@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "OSPlatform",
+	"category" : "STNos-Pharo",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SqueakNOSPlatform",
+	"type" : "normal"
+}

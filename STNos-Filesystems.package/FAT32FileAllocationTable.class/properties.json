@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "STNos-Filesystems-FAT32",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"chains",
+		"contents"
+	],
+	"name" : "FAT32FileAllocationTable",
+	"type" : "normal"
+}

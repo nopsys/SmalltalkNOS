@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "ArrayedCollection",
+	"category" : "STNos-Pharo-Compatibility",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ByteArray",
+	"type" : "bytes"
+}

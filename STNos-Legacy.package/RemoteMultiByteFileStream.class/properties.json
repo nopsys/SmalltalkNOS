@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "MultiByteFileStream",
+	"category" : "STNos-Legacy-Remote",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"channel"
+	],
+	"name" : "RemoteMultiByteFileStream",
+	"type" : "normal"
+}
