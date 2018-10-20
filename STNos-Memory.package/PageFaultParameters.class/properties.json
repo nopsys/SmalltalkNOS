@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "Alien",
+	"category" : "STNos-Memory-Paging",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "PageFaultParameters",
+	"type" : "bytes"
+}

@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "len 12/25/2001 17:05",
+	"super" : "TCPState",
+	"category" : "STNos-Network-TCP-States",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "TCPFinWait2",
+	"type" : "normal"
+}

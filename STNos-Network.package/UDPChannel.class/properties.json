@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "Conduit",
+	"category" : "STNos-Network-UDP",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"localPort",
+		"remotePort"
+	],
+	"name" : "UDPChannel",
+	"type" : "normal"
+}

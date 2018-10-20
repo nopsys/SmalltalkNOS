@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "STNos-Network-Ethernet",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"hardware",
+		"protocol",
+		"timeout"
+	],
+	"name" : "ARPEntry",
+	"type" : "normal"
+}

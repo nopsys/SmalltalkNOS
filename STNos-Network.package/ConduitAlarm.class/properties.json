@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "MessageSend",
+	"category" : "STNos-Network-Conduits",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"scheduledTime",
+		"stepTime",
+		"numArgs"
+	],
+	"name" : "ConduitAlarm",
+	"type" : "normal"
+}

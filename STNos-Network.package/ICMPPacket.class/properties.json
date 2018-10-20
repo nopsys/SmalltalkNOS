@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "Packet",
+	"category" : "STNos-Network-Packets",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ICMPPacket",
+	"type" : "normal"
+}

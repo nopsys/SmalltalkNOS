@@ -1,0 +1,27 @@
+{
+	"commentStamp" : "",
+	"super" : "HardwareDevice",
+	"category" : "STNos-Legacy-Devices",
+	"classinstvars" : [ ],
+	"pools" : [
+		"EventSensorConstants"
+	],
+	"classvars" : [
+		"ShiftedTranslationTable",
+		"TranslationTable"
+	],
+	"instvars" : [
+		"pressedKeys",
+		"replyExpected",
+		"lastScanCode",
+		"status",
+		"buttonsState",
+		"mousePoint",
+		"mouseCount",
+		"prevScanCode",
+		"underCursorForm",
+		"event"
+	],
+	"name" : "OldPCKeyboard",
+	"type" : "normal"
+}

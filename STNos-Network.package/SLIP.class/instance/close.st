@@ -1,0 +1,3 @@
+control
+close
+	stream close

@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "STNos-Network-TCP-States",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"socket"
+	],
+	"name" : "TCPState",
+	"type" : "normal"
+}

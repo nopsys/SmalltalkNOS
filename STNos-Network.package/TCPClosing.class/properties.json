@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "len 12/25/2001 17:04",
+	"super" : "TCPState",
+	"category" : "STNos-Network-TCP-States",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "TCPClosing",
+	"type" : "normal"
+}

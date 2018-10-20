@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "Workspace",
+	"category" : "STNos-Legacy-Remote",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"remote"
+	],
+	"name" : "RemoteWorkspace",
+	"type" : "normal"
+}

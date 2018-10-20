@@ -1,0 +1,21 @@
+{
+	"commentStamp" : "",
+	"super" : "Loopback",
+	"category" : "STNos-Tests-Network",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"process",
+		"queue",
+		"random",
+		"dropRate",
+		"corruptionRate",
+		"unsortRate",
+		"maxDelay",
+		"minDelay",
+		"minimumSize"
+	],
+	"name" : "RealisticLoopback",
+	"type" : "normal"
+}

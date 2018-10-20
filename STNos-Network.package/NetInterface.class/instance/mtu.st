@@ -1,0 +1,3 @@
+accessing
+mtu
+	^ device mtu

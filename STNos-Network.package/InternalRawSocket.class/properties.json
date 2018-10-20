@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "InternalSocket",
+	"category" : "STNos-Network-Conduits",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"inputQ",
+		"inputStream"
+	],
+	"name" : "InternalRawSocket",
+	"type" : "normal"
+}

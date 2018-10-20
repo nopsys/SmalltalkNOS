@@ -1,0 +1,3 @@
+protocol
+isAllAcknowledged
+	^ lastAcknowledged = sequence

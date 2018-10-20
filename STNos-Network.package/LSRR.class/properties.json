@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "RecordRoute",
+	"category" : "STNos-Network-IP",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "LSRR",
+	"type" : "normal"
+}

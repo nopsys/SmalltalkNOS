@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "TestCase",
+	"category" : "STNos-Tests-Network",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"packet",
+		"fragments"
+	],
+	"name" : "IPFragmentsTest",
+	"type" : "normal"
+}

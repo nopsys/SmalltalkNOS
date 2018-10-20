@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "STNos-Filesystems-FAT32",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"contents"
+	],
+	"name" : "FAT32Cluster",
+	"type" : "normal"
+}

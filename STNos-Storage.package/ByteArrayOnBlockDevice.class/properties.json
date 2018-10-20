@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "JavierPimas 6/11/2018 01:36",
+	"super" : "ArrayedCollection",
+	"category" : "STNos-Storage-Block",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"contents"
+	],
+	"name" : "ByteArrayOnBlockDevice",
+	"type" : "normal"
+}

@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "TCPOutputState",
+	"category" : "STNos-Network-TCP-States",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "TCPIdle",
+	"type" : "normal"
+}

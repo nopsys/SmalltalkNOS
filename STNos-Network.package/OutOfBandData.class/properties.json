@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "Notification",
+	"category" : "STNos-Network-Exceptions",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"data"
+	],
+	"name" : "OutOfBandData",
+	"type" : "normal"
+}

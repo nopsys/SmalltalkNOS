@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "ArrayedCollection",
+	"category" : "STNos-Network-Packets",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"bytes",
+		"offset",
+		"envelope"
+	],
+	"name" : "Packet",
+	"type" : "normal"
+}

@@ -1,0 +1,19 @@
+{
+	"commentStamp" : "",
+	"super" : "InternalNetworkDevice",
+	"category" : "STNos-Network-Devices",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"adapter",
+		"packetClass",
+		"filter",
+		"promiscuous",
+		"snapshot",
+		"semaphore",
+		"descriptor"
+	],
+	"name" : "PacketSocket",
+	"type" : "normal"
+}

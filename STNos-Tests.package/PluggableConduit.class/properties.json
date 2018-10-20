@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "Conduit",
+	"category" : "STNos-Tests-Network",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"incomingAction",
+		"outgoingAction"
+	],
+	"name" : "PluggableConduit",
+	"type" : "normal"
+}
