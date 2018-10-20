@@ -1,3 +1,0 @@
-testing
-isActiveClass
-	^Computer isSqueakNOS

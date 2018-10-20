@@ -1,3 +1,0 @@
-*SqueakNOS-TemporaryCompatibility
-acceptsLoggingOfCompilation
-	^ Computer isSqueakNOS not

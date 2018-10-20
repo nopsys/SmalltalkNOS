@@ -1,3 +1,0 @@
-initialization
-lock
-	busy wait
