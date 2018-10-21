@@ -1,11 +1,14 @@
 decorator
 initialize: aComputer
+	self initDisplay.
 	aComputer processor: X86Processor new.
 	PIC8259 installOn: aComputer.
 	PS2Keyboard installOn: aComputer.
-	CMOS installOn: self.
-	UART16550 installOn: self.
+	CMOS installOn: aComputer.
+	UART16550 installOn: aComputer.
 	"USBUHCIController installOn: self.
 	SDDevice installOn: self.
 	self initializeBridge.
-	RemoteObjectChannel installOn: self."
+	RemoteObjectChannel installOn: self.
+	self printPCIDebug"
+	
