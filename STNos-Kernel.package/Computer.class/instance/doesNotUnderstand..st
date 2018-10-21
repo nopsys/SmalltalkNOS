@@ -5,7 +5,7 @@ doesNotUnderstand: aMessage
 	selector := aMessage selector.
 	(aMessage arguments size = 1 and: [selector last = $:])
 		ifTrue: [
-			^ self add: aMessage arguments first
+			^ self addDevice: aMessage arguments first
 				named: selector allButLast asSymbol].
 
 	^ devices at: aMessage selector ifAbsent: [

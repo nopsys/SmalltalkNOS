@@ -13,8 +13,8 @@
 	],
 	"instvars" : [
 		"devices",
+		"initializers",
 		"info",
-		"processor",
 		"memoryManager",
 		"ramdisk",
 		"primaryFilesystem"

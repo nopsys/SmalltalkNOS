@@ -1,0 +1,3 @@
+decorator
+initialize: aComputer
+	aComputer class stNosSettingsforPharo

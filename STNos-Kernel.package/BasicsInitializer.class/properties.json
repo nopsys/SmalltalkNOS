@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "FeatureInitializer",
+	"category" : "STNos-Kernel-Initializers",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "BasicsInitializer",
+	"type" : "normal"
+}

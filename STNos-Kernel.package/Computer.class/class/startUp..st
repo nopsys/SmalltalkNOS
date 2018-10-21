@@ -4,7 +4,7 @@ startUp: resuming
 		ifTrue: [
 				resuming ifTrue: [
 					Transcript cr; show: 'This is SqueakNOS!!! :-)'; cr. 
-					self startUpPCComputer
+					Current init.
 				] ifFalse: [
 					snapshotter ifNotNil: [: s | s snapshot. snapshotter := nil] 
 				]
