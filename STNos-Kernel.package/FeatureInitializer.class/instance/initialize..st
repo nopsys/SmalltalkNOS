@@ -1,3 +1,3 @@
 decorator
 initialize: aComputer
-	self subclassResponsibility 
+	initialized := true 

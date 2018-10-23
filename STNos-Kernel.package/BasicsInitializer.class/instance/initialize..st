@@ -1,5 +1,6 @@
 decorator
 initialize: aComputer
+	super initialize: aComputer.
 	self initDisplay.
 	aComputer processor: X86Processor new.
 	PIC8259 installOn: aComputer.
