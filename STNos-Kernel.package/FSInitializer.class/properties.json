@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "FeatureInitializer",
+	"category" : "STNos-Kernel-Initializers",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"ramdisk"
+	],
+	"name" : "FSInitializer",
+	"type" : "normal"
+}

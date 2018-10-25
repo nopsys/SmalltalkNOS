@@ -1,0 +1,3 @@
+accessing
+inRamdisk
+	ramdisk := true.

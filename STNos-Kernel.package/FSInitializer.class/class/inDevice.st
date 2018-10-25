@@ -1,0 +1,3 @@
+creation
+inDevice
+	^ self new

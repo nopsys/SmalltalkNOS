@@ -10,3 +10,9 @@ openSourceFilesFrom: aFileSystem
 	directory := aFileSystem root.
 	(directory fileExists: sources)
 		ifTrue: [ source := (directory readOnlyFileNamed: sources) readStream ].
+	(directory fileExists: changes)
+		ifTrue: [ change := (directory readOnlyFileNamed: changes) readWriteStream ].
+	SourceFiles 
+		changesFileStream: change;
+		sourcesFileStream: source.
+		
