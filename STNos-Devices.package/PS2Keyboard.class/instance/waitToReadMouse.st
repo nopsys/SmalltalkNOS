@@ -4,9 +4,9 @@ waitToReadMouse
 	self mouseOutputBufferFull ifTrue: [^true].
 	delay := Delay forMilliseconds: 1.
 	250 timesRepeat: [
-		delay wait.
+		"delay wait."
 		self mouseOutputBufferFull ifTrue: [^true]
 	].
-	self report: 'timedout out witing for mouse input.'.
+	self report: 'timedout out waiting for mouse input.'.
 	^false
 	

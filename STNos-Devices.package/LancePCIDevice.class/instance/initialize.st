@@ -1,8 +1,8 @@
 initialization
 initialize
 	| initBlock tring rring rbuf tbuf |
-	"Note that the hw specification requires that all rring, tring, and initBlock are aligned to 8 bytes. 
-	We assume this is the case in a x86_64 FFI what this has to be checked"
+	"Note that the hw specification requires that all rring, tring, and initBlock are aligned to 8 bytes. 	We assume this is the case in a x86_64 FFI what this has to be checked"
+		
 	rbuf := ExternalAddress allocate: 1536.
 	rring := (LanceNICReceiveRingDescriptor16 externalNew)
 		reset;

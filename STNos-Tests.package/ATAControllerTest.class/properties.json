@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "TestCase",
-	"category" : "STNos-Devices-Block",
+	"category" : "STNos-Tests-Devices",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

@@ -1,3 +1,3 @@
 accessing
 address
-	^ self pointer asInteger
+	^ self getHandle asInteger
